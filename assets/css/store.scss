@@ -1,0 +1,943 @@
+@import 'common';
+
+.sub.store {
+    #header {
+        background-image: url(/assets/images/store/bg_header.jpg);
+    }
+    .page-summary {
+        text-align: center;
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            @include font(22px, 30px);
+            color: $orange;
+            font-weight: 300;
+            letter-spacing: -2px;
+        }
+        p {
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #333;
+            word-break: keep-all;
+        }
+        @media (min-width: $sm) {
+            h3 {
+                margin-top: 0;
+                margin-bottom: 20px;
+                @include font(30px, 45px);
+            }
+            p {
+                @include font(16px, 26px);
+            }
+        }
+        @media (min-width: $lg) {
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+//카테고리별
+.sub.store.category {
+    
+    // 매장검색 영역
+    .search-form {
+        margin-top: 25px !important;
+        @media (min-width: $sm) {
+            margin-top: 55px !important;
+        }
+        
+    }
+    
+    //카테고리 탭
+    .category-tabs {
+        position: relative;
+        margin: 20px auto 0;
+        max-width: 320px;
+        .container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .btn {
+            padding: 0 0 0 10px;
+            height: 36px;
+            border: 1px solid #ececec;
+            border-radius: 0;
+            text-align: left;
+            font-size: 12px;
+            color: #666;
+            background-color: #fff;
+            line-height: 34px;
+            &:after {
+                float: right;
+                width: 30px;
+                height: 34px;
+                font-family: 'fontello';
+                content: '\F107';
+                background-color: #35455c;
+                color: #fff;
+                text-align: center;
+            }
+        }
+        nav {
+            display: none;
+            position: absolute;
+            top: 36px;
+            z-index: 1;
+            max-width: 300px;
+            ul {
+                li {
+                    display: inline;
+                    a {
+                        float: left;
+                        margin-top: -1px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        width: 100%;
+                        text-align: left;
+                        border: 1px solid #dfdfdf;
+                        background-color: #fff;
+                        font-size: 12px;
+                        text-decoration: none;
+                        line-height: 36px;
+                        &:hover, &:focus {
+                            color: $orange;
+                        }
+                    }
+                    &.active {
+                        a {
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+        &.open {
+            .btn {
+                &:after {
+                    content: '\F106';
+                }
+            }
+            nav {
+                display: block;
+            }
+        }
+        @media (min-width: $sm) {
+            margin-top: auto;
+            max-width: 100%;
+            .btn {
+                display: none;
+            }
+            nav {
+                display: block;
+                position: relative;
+                top: auto;
+                margin-top: 40px;
+                max-width: 100%;
+                ul {
+                    text-align: center;
+                    li {
+                        & + li:before {
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            content: '|';
+                            color: #e0e0e0;
+                            vertical-align: 2px;
+                        }
+                        a {
+                            float: none;
+                            width: auto;
+                            border: 0;
+                            font-size: 18px;
+                            line-height: inherit;
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // 검색결과(매장목록)
+    .store-list {
+        margin-top: 45px;
+        margin-bottom: 65px;
+        @media (min-width: $sm) {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        @media (min-width: $lg) {
+            margin-top: 60px;
+            margin-bottom: 120px;
+        }
+        .btn-area {
+            margin-top: 30px;
+            .btn {
+                width: 160px;
+            }
+            @media (min-width: $sm) {
+                margin-top: 40px;
+            }
+            @media (min-width: $lg) {
+                margin-top: 45px;
+            }
+        }
+    }
+}
+
+//층별
+.sub.store.floor {
+    
+    // 탭
+    .floor-tabs {
+        position: relative;
+        margin: 20px auto 0;
+        max-width: 320px;
+        .container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .btn {
+            padding: 0 0 0 10px;
+            height: 36px;
+            border: 1px solid #ececec;
+            border-radius: 0;
+            text-align: left;
+            font-size: 12px;
+            color: #666;
+            background-color: #fff;
+            line-height: 34px;
+            &:after {
+                float: right;
+                width: 30px;
+                height: 34px;
+                font-family: 'fontello';
+                content: '\F107';
+                background-color: #35455c;
+                color: #fff;
+                text-align: center;
+            }
+        }
+        nav {
+            display: none;
+            position: absolute;
+            top: 36px;
+            z-index: 1;
+            width: 100%;
+            max-width: 300px;
+            ul {
+                li {
+                    display: inline;
+                    a {
+                        float: left;
+                        margin-top: -1px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        width: 100%;
+                        text-align: left;
+                        border: 1px solid #dfdfdf;
+                        background-color: #fff;
+                        font-size: 12px;
+                        text-decoration: none;
+                        line-height: 36px;
+                        &:hover, &:focus {
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+        &.open {
+            .btn {
+                &:after {
+                    content: '\F106';
+                }
+            }
+            nav {
+                display: block;
+            }
+        }
+        @media (min-width: $sm) {
+            position: relative;
+            top: inherit;
+            margin-top: 40px;
+            max-width: inherit;
+            .btn {
+                display: none;
+            }
+            nav {
+                display: block;
+                position: relative;
+                text-align: center;
+                top: auto;
+                width: 100%;
+                max-width: inherit;
+                ul {
+                    display: inline-block;
+                    li {
+                        display: inline;
+                        a {
+                            position: relative;
+                            float: left;
+                            margin-top: 0;
+                            margin-left: -1px;
+                            width: 120px;
+                            text-align: center;
+                            font-size: 14px;
+                            line-height: 50px;
+                        }
+                        &:first-child {
+                            a {
+                                border-top-left-radius: 25px;
+                                border-bottom-left-radius: 25px;
+                            }
+                        }
+                        &:last-child {
+                            a {
+                                border-top-right-radius: 25px;
+                                border-bottom-right-radius: 25px;
+                            }
+                        }
+                        &.active {
+                            a {
+                                background-color: #35455c;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            nav {
+                ul {
+                    li {
+                        a {
+                            width: 160px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // 제목
+    .floor-title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        h4 {
+            font-size: 40px;
+            color: #35455c;
+            line-height: 36px;
+            
+        }
+        hr {
+            margin: 10px auto 0;
+            width: 40px;
+            border-top-width: 3px;
+            border-top-color: $orange;
+        }
+        small {
+            color: #35455c;
+            font-size: 20px;
+            font-weight: lighter;
+            line-height: 36px;
+        }
+        @media (min-width: $sm) {
+            margin-bottom: 40px;
+        }
+        @media (min-width: $md) {
+            display: none;
+        }
+    }
+    
+    // 평면도
+    .floor-plan {
+        margin-bottom: 30px;
+        p {
+            img {
+                margin: 0 auto;
+            }
+        }
+        @media (min-width: $sm) {
+            margin-bottom: 50px;
+        }
+        @media (min-width: $md) {
+            margin-top: 75px;
+        }
+    }
+    
+    // 평면도
+    .store-list {
+        margin-bottom: 60px;
+        .btn-area {
+            margin-top: 30px;
+            .btn {
+                width: 160px;
+            }
+        }
+        @media (min-width: $sm) {
+            margin-bottom: 80px;
+            .btn-area {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+//편의시설
+.sub.store.place {
+    .amenity-list {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    @media (min-width: $sm) {
+        .amenity-list {
+            margin-top: 55px;
+            margin-bottom: 65px;
+        }
+    }
+    @media (min-width: $sm) {
+        .amenity-list {
+            margin-top: 85px;
+            margin-bottom: 120px;
+        }
+    }
+    .a-info-modal {
+        .modal-dialog {
+            .modal-content {
+                border: 0;
+                border-radius: 0;
+                .close {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 40px; //75px;
+                    height: 40px; //75px;
+                    background-color: #fbad1c;
+                    opacity: 1;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .modal-dialog {
+                margin: 10px;
+                width: auto;
+                max-width: 1030px;
+                .modal-content {
+                    .close {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .modal-dialog {
+                margin-left: auto;
+                margin-right: auto;
+                .modal-content {
+                    .close {
+                        width: 75px;
+                        height: 75px;
+                    }
+                }
+            }
+        }
+    }
+    
+    &.modal-open {
+        overflow: hidden !important;
+        .a-info-modal {
+            overflow: hidden;
+        }
+    }
+}
+
+//영업시간
+.sub.store.hours {
+    .square1-hours {
+        position: relative;
+        margin-top: 40px;
+        background-color: $orange;
+        text-align: center;
+        background-image: url(/assets/images/store/bg_watch.gif);
+        background-size: 10% auto;
+        .container {
+            div {
+                padding-top: 30px;
+                padding-bottom: 120px;
+                background-image: url(/assets/images/store/ico_watch_big.png);
+                background-position: 50% 230%;
+                background-size: 178px 178px;
+                background-repeat: no-repeat;
+                h3 {
+                    @include font(18px, 45px);
+                    color: #fff;
+                    font-weight: lighter;
+                    text-shadow: 3px 2px 2px rgba(#000, .2);
+                    b { 
+                        i {
+                            font-style: normal;
+                        }
+                    }
+                }
+                p {
+                    color: #fff;
+                    font-size: 20px;
+                    font-size: 35px;
+                    line-height: 45px;
+                    @include lato();
+                    text-shadow: 3px 2px 2px rgba(#000, .2);
+                    small {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            margin-top: 55px;
+            background-size: auto auto;
+            .container {
+                div {
+                    padding-top: 50px;
+                    padding-bottom: 150px;
+                    background-size: 249px 249px;
+                    background-position: 50% 205px;
+                    h3 {
+                        font-size: 24px;
+                        line-height: 60px;
+                        b {
+                            i {
+                                font-size: 1.5em;
+                            }
+                        }
+                    }
+                    p {
+                        font-size: 50px;
+                        line-height: 60px;
+                        font-weight: bold;
+                        small {
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-top: 85px;
+        }
+    }
+    .store-hours {
+        margin-top: 45px;
+        margin-bottom: 80px;
+        @media (min-width: $sm) {
+            margin-top: 60px;
+        }
+    }
+}
+
+/* point */
+.point {
+    .summary {
+        padding-bottom: 45px;
+        @media(min-width: $md) {
+            padding-bottom: 120px;
+        }
+        .point-card {
+            margin-bottom: 40px;
+            padding: 40px 10px;
+            box-shadow: 0 3px 10px 0px #ccc;
+            background-color: #fff;
+            @media(min-width: $sm) {
+                padding-top: 45px;
+                padding-bottom: 45px;
+            }
+            @media(min-width: $md) {
+                margin-bottom: 45px;
+            }
+            h2 {
+                font-size: 22px;
+                color: $orange;
+                line-height: 30px;
+                font-weight: 300;
+                text-align: center;
+                @media(min-width: $sm) {
+                    font-size: 30px;
+                    line-height: 45px;
+                }
+                @media(min-width: $md) {
+                    text-align: left;
+                    margin-bottom: 25px;
+                }
+            }
+            .card-img {
+                margin: 30px 0 40px;
+                padding: 0 27px;
+                img {
+                    margin: 0 auto;
+                }
+                @media(min-width: $sm) {
+                    margin-top: 40px;
+                    margin-bottom: 0;
+                }
+                @media(min-width: $md) {
+                    margin: 0;
+                    padding-top: 15px;
+                }
+            }
+            .my-point {
+                @media(min-width: $sm) {
+                    margin-top: 40px;
+                }
+                @media(min-width: $md) {
+                    margin: 0;
+                }
+                p {
+                    font-size: 13px;
+                    color: #333;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                    i {
+                        font-style: normal;
+                        color: $orange;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+                a {
+                    font-size: 13px;
+                    color: $orange;
+                    padding-left: 25px;
+                    background-image: url(/assets/images/store/icon_point.gif);
+                    background-repeat: no-repeat;
+                    background-size: 18px;
+                    background-position: 0 0;
+                    &:hover, &:focus {
+                        text-decoration: none;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .card-information {
+            background-color: #fff;
+            .article-list {
+                .c-details {
+                    .info-txt {
+                        font-size: 13px;
+                        color: #666;
+                        line-height: 24px;
+                        font-weight: 300;
+                        @media(min-width: $sm) {
+                            font-size: 15px;
+                            line-height: 28px;
+                        }
+                    }
+                    .attention {
+                        margin-top: 20px;
+                        dt {
+                            display: inline;
+                            font-size: 12px;
+                            color: #888;
+                            font-weight: 300;
+                            line-height: 22px;
+                            &:before {
+                                content: "*";
+                                padding-right: 3px;
+                            }
+                        }
+                        dd {
+                            display: inline;
+                            font-size: 12px;
+                            color: #888;
+                            font-weight: 300;
+                            line-height: 22px;
+                            &:before {
+                                content: ":";
+                                padding-right: 3px;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            margin-top: 10px;
+                            dt {
+                                font-size: 13px;
+                            }
+                            dd {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    .table-wrap {
+                        .table {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .dot-list {
+                        li {
+                            dl {
+                                overflow: hidden;
+                                dt {
+                                    float: left;
+                                    clear: both;
+                                    width: 100px;
+                                    font-size: 13px;
+                                    color: #333;
+                                    font-weight: 300;
+                                    line-height: 26px;
+                                }
+                                dd {
+                                    float: left;
+                                    font-size: 13px;
+                                    color: #666;
+                                    font-weight: 300;
+                                    line-height: 26px;
+                                }
+                                @media(min-width: $sm) {
+                                    dt {
+                                        width: 165px;
+                                        font-size: 15px;
+                                        line-height: 30px;
+                                    }
+                                    dd {
+                                        font-size: 15px;
+                                        line-height: 30px;
+                                    }
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                    .point-txt {
+                        font-size: 12px;
+                        color: #888;
+                        &:before {
+                            content: "*";
+                            color: #888;
+                            padding-right: 3px;
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 13px;
+                            line-height: 28px;
+                        }
+                    }
+                    .dot-dl {
+                        overflow: hidden;
+                        dt {
+                            width: 35%;
+                            float: left;
+                            clear: both;
+                            font-size: 13px;
+                            color: #333;
+                            line-height: 24px;
+                            font-weight: 300;
+                            vertical-align: top;
+                            &:before {
+                                font-family: "fontello";
+                                content: "\E80C";
+                                padding-right: 5px;
+                                color: #ec6708;
+                            }
+                        }
+                        dd {
+                            width: 65%;
+                            float: left;
+                            font-size: 13px;
+                            color: #666;
+                            line-height: 24px;
+                            font-weight: 300;
+                            margin-bottom: 30px;
+                            vertical-align: top;
+                            &.mb-zero {
+                                margin-bottom: 0;
+                            }
+                        }
+                        @media(min-width: 600px) {
+                            dt {
+                                width: 25%;
+                            }
+                            dd {
+                                width: 75%;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            dt {
+                                font-size: 15px;
+                                line-height: 30px;
+                            }
+                            dd {
+                                font-size: 15px;
+                                line-height: 30px;
+                            }
+                        }
+                        @media(min-width: $md) {
+                            dt {
+                                width: 15%;
+                            }
+                            dd {
+                                width: 85%;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    &.point-benefit {
+                        p {
+                            margin-bottom: 20px;
+                            @media(min-width: $sm) {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* parking */
+.parking {
+    #content {
+        padding-bottom: 45px;
+        @media(min-width: $md) {
+            padding-bottom: 120px;
+        }
+        .parking-map {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 15px 10px 40px;
+            background-color: #fff;
+            box-shadow: 0 3px 10px 0px #ccc;
+            img {
+                margin: 0 auto;
+            }
+            @media(min-width: $sm) {
+                margin-top: 70px;
+                padding: 55px;
+            }
+        }
+        .parking-info {
+            padding: 0 10px;
+            background-color: #fff;
+            @media(min-width: $sm) {
+                padding: 0 25px;
+            }
+            @media(min-width: $md) {
+                padding: 0;
+            }
+            .summary {
+                padding: 30px 0;
+                border-bottom: 1px solid #dfdfdf;
+                @media(min-width: $sm) {
+                    padding: 45px 0;
+                }
+                @media(min-width: $md) {
+                    border-bottom: 0;
+                    padding: 60px 45px 35px 45px;
+                }
+                h4 {
+                    font-size: 14px;
+                    color: $orange;
+                    margin-bottom: 25px;
+                    @media(min-width: $sm) {
+                        font-size: 16px;
+                    }
+                }
+                .dot-list {
+                    li {
+                        font-size: 13px;
+                        line-height: 24px;
+                        color: #666;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 15px;
+                            margin-bottom: 0;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+            .fare {
+                padding: 30px 0;
+                @media(min-width: $sm) {
+                    padding: 45px 0;
+                }
+                @media(min-width: $md) {
+                    border-bottom: 0;
+                    padding: 60px 45px 35px 45px;
+                }
+                h4 {
+                    font-size: 14px;
+                    color: $orange;
+                    margin-bottom: 25px;
+                    @media(min-width: $sm) {
+                        font-size: 16px;
+                    }
+                }
+                .dot-list {
+                    li {
+                        font-size: 13px;
+                        line-height: 24px;
+                        color: #666;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 15px;
+                            margin-bottom: 0;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

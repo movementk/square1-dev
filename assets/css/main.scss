@@ -1,0 +1,704 @@
+@import 'common';
+
+#header {
+    height: 267px;
+    .jumbo {
+        padding-top: 105px;
+        h1 {
+            font-weight: 100;
+            font-size: 40px;
+            line-height: 50px;
+            letter-spacing: -1px;
+        }
+    }
+    @media (min-width: $sm) {
+        height: 473px;
+        .jumbo {
+            padding-top: 140px;
+            h1 {
+                font-size: 95px;
+                line-height: 120px;
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        height: 844px;
+        .jumbo {
+            padding-top: 200px;
+            h1 {
+                font-size: 105px;
+                line-height: 120px;
+                letter-spacing: -3px;
+            }
+        }
+        #top-nav {
+            .logo {
+                margin-top: 100px;
+            }
+        }
+        #gnb {
+            top: 567px;
+            .container {
+                padding-left: 0;
+                padding-right: 0;
+                width: 1200px;
+            }
+        }
+    }
+}
+
+// 컨텐츠 영역
+#content {
+    background-color: #ececec;
+    > .container {
+        padding-left: 0;
+        padding-right: 0;
+        > .row {
+            margin-left: 0;
+            margin-right: 0;
+            > div {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        @media (min-width: $sm) {
+            width: 100%;
+        }
+        @media (min-width: $lg) {
+            width: 1200px;
+            > .row {
+                margin-top: -100px;
+            }
+        }
+    }
+}
+
+// 자주쓰는 메뉴
+#bookmarks {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #35455c;
+    ul {
+        overflow: hidden;
+        li {
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 50%;
+            a {
+                position: relative;
+                display: block;
+                padding-left: 25px;
+                color: rgba(#fff, .85);
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 33px;
+                border-top: 1px solid #4a6181;
+                border-bottom: 1px solid #202937;
+                i {
+                    position: absolute;
+                    left: 0;
+                    width: 25px;
+                    text-align: center;
+                    img {
+                        width: 50%;
+                        vertical-align: -2px;
+                    }
+                }
+            }
+            &:nth-of-type(1),
+            &:nth-of-type(2) {
+                a {
+                    border-top: 0;
+                }
+            }
+            &:nth-of-type(5),
+            &:nth-of-type(6) {
+                a {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        height: 384px;
+        ul {
+            li {
+                float: none;
+                padding-left: 40px;
+                padding-right: 40px;
+                width: 100%;
+                a {
+                    padding-left: 40px;
+                    font-size: 16px;
+                    line-height: 50px;
+                    i {
+                        width: 30px;
+                        img {
+                            width: auto;
+                        }
+                    }
+                }
+                &:nth-of-type(2) {
+                    a {
+                        border-top: 1px solid #4a6181;
+                    }
+                }
+                &:nth-of-type(5) {
+                    a {
+                        border-bottom: 1px solid #202937;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $md) {
+        //margin-left: -15px;
+        //margin-right: -15px;
+    }
+    @media (min-width: $lg) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 300px;
+        ul {
+            li {
+                padding-left: 30px;
+                padding-right: 30px;
+                a {
+                    padding-left: 30px;
+                    font-size: 14px;
+                    line-height: 41px;
+                    i {
+                        width: 25px;
+                        img {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 매장검색
+#search-store {
+    //margin-left: -10px;
+    //margin-right: -10px;
+    position: relative;
+    padding: 15px 30px 20px;
+    background-color: #f57f26;
+    color: #fff;
+    text-align: center;
+    h3 {
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: normal;
+        letter-spacing: -1px;
+    }
+    p {
+        font-weight: thin;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .form-area {
+        position: relative;
+        margin-top: 15px;
+        .form-group {
+            position: relative;
+            padding-right: 23px;
+            border: 2px solid #fff;
+            .form-control {
+                padding: 0 10px;
+                height: 23px;
+                background-color: transparent;
+                border: 0;
+                &::-ms-clear {
+                    display: none;
+                }
+            }
+            .btn {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 0;
+                width: 23px;
+                height: 23px;
+                border: 0;
+                border-radius: 0;
+                background-color: transparent;
+                i {
+                    vertical-align: 3px;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+        &.focus {
+            .form-group {
+                .form-control {
+                    background-color: #fff;
+                    color: $orange;
+                }
+                .btn {
+                    background-color: #fff;
+                    i {
+                        color: $orange;
+                    }
+                }
+            }
+        }
+        .results {
+            position: absolute;
+            top: 27px;
+            z-index: 1;
+            width: 100%;
+            background-color: #fff;
+            border-top: 1px solid #dfdfdf;
+            ul {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                li {
+                    a {
+                        display: block;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                        @include font(13px, 30px);
+                        text-align: left;
+                        color: #666;
+                        font-weight: 300;
+                        text-decoration: none;
+                        &:focus, &:hover {
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+            .nothing {
+                padding: 10px;
+                @include font(13px, 30px);
+                font-weight: 300;
+                text-align: left;
+                color: #ccc;
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        padding: 50px 40px 60px;
+        height: 384px;
+        h3 {
+            margin-bottom: 35px;
+            font-size: 27px;
+            line-height: 36px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 23px;
+        }
+        .form-area {
+            margin-top: 50px;
+            .form-group {
+                padding-right: 53px;
+                .form-control {
+                    height: 53px;
+                }
+                .btn {
+                    width: 53px;
+                    height: 53px;
+                    i {
+                        font-size: 24px;
+                        vertical-align: 5px;
+                    }
+                }
+            }
+            .results {
+                top: 57px;
+                ul {
+                    li {
+                        a {
+                            @include font(16px, 34px);
+                        }
+                    }
+                }
+                .nothing {
+                    @include font(16px, 34px);
+                }
+            }
+        }
+    }
+    @media (min-width: $md) {
+        //margin-left: -15px;
+        //margin-right: -15px;
+    }
+    @media (min-width: $lg) {
+        padding: 45px 25px;
+        height: 300px;
+        h3 {
+            margin-bottom: 25px;
+            font-size: 22px;
+            line-height: 28px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 18px;
+        }
+        .form-area {
+            margin-top: 40px;
+            .form-group {
+                padding-right: 41px;
+                .form-control {
+                    height: 41px;
+                }
+                .btn {
+                    width: 41px;
+                    height: 41px;
+                    i {
+                        font-size: 18px;
+                        vertical-align: 4px;
+                    }
+                }
+            }
+            .results {
+                top: 45px;
+                ul {
+                    li {
+                        a {
+                            @include font(16px, 30px);
+                        }
+                    }
+                }
+                .nothing {
+                    @include font(16px, 30px);
+                }
+            }
+        }
+    }
+}
+
+// 바로가기들
+.shortcut {
+    height: 160px;
+    background-color: #fff;
+    a {
+        display: block;
+        padding-top: 95px;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        line-height: 16px;
+        background-repeat: no-repeat;
+        small {
+            font-size: 10px;
+            color: $orange;
+        }
+        b {
+            font-size: 13px;
+            font-weight: 400;
+        }
+    }
+    &.hour {
+        a {
+            background-image: url(/assets/images/ico_watch_big.png);
+            background-size: auto 46px;
+            background-position: 50% 30px;
+        }
+    }
+    &.floor {
+        a {
+            border-left: 1px solid #dfdfdf;
+            background-image: url(/assets/images/ico_flag_big.png);
+            background-size: auto 46px;
+            background-position: 52% 35px;
+        }
+    }
+    &.location {
+        a {
+            background-color: #4c84c9;
+            color: #fff;
+            background-image: url(/assets/images/ico_mappin_big.png);
+            background-size: auto 46px;
+            background-position: 50% 35px;
+            small {
+                color: #fbad1c;
+            }
+        }
+    }
+    &.membership {
+        a {
+            background-image: url(/assets/images/ico_card_big.png);
+            background-size: auto 35px;
+            background-position: 50% 42px;
+        }
+    }
+    @media (min-width: $sm) {
+        height: 384px;
+        a {
+            padding-top: 235px;
+            line-height: 30px;
+            small {
+                font-size: 14px;
+            }
+            b {
+                font-size: 25px;
+            }
+        }
+        &.hour {
+            a {
+                background-size: auto 100px;
+                background-position: 50% 100px;
+            }
+        }
+        &.floor {
+            a {
+                background-size: auto 100px;
+                background-position: 55% 100px;
+            }
+        }
+        &.location {
+            a {
+                background-size: auto 100px;
+                background-position: 50% 100px;
+            }
+        }
+        &.membership {
+            a {
+                background-size: auto 87px;
+                background-position: 50% 110px;
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        height: 300px;
+        a {
+            padding-top: 180px;
+            line-height: 24px;
+            small {
+                font-size: 11px;
+            }
+            b {
+                font-size: 20px;
+            }
+        }
+        &.hour {
+            a {
+                background-size: auto 90px;
+                background-position: 50% 75px;
+            }
+        }
+        &.floor {
+            a {
+                background-size: auto 80px;
+                background-position: 55% 77px;
+            }
+        }
+        &.location {
+            a {
+                background-size: auto 87px;
+                background-position: 50% 76px;
+            }
+        }
+        &.membership {
+            a {
+                background-size: auto 67px;
+                background-position: 50% 87px;
+            }
+        }
+    }
+}
+
+#banner-1 {
+    margin-bottom: 0;
+}
+.banner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .bx-wrapper {
+        position: relative;
+        .bx-viewport {
+            ul li a img {
+                width: 100%;
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            .bx-pager-item {
+                float: left;
+                width: 10px;
+                height: 10px;
+                & + .bx-pager-item {
+                    margin-left: 3px;
+                }
+                .bx-pager-link {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    &.active {
+                        background-color: $orange;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .bx-wrapper {
+            .bx-controls {
+                left: 20px;
+                bottom: 40px;
+                .bx-pager-item {
+                    width: 17px;
+                    height: 17px;
+                    & + .bx-pager-item {
+                        margin-left: 7px;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        .bx-wrapper {
+            .bx-controls {
+                left: 40px;
+                bottom: 30px;
+                .bx-pager-item {
+                    width: 14px;
+                    height: 14px;
+                    & + .bx-pager-item {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 푸터
+#footer {
+    border-top: 0;
+    @media (min-width: $lg) {
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+            width: 1200px;
+        }
+    }
+}
+
+// 팝업
+#popup {
+    & ~ .modal-backdrop {
+        background-color: transparent;
+    }
+    overflow: visible;
+    width: 100%;
+    height: 1px;
+    right: inherit;
+    bottom: inherit;
+    .modal-dialog {
+        margin-top: 55px;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 300px;
+        //background-color: transparent;
+        background-color: #fff;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            .modal-body {
+                padding: 0;
+                .bx-wrapper {
+                    .bx-viewport {
+                        .popup-list {
+                            li {
+                                a {
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bx-controls {
+                        position: absolute;
+                        top: 15px;
+                        right: 15px;
+                        .bx-pager-item {
+                            float: left;
+                            width: 12px;
+                            height: 12px;
+                            vertical-align: middle;
+                            & + .bx-pager-item {
+                                margin-left: 8px;
+                            }
+                            .bx-pager-link {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                                background-color: #fff;
+                                &.active {
+                                    background-color: $orange;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .modal-foot {
+                height: 30px;
+                background-color: #202020;
+                label {
+                    font-weight: 300;
+                    font-size: 12px;
+                    color: #fff;
+                    margin-left: 10px;
+                    line-height: 30px;
+                    input {
+                        vertical-align: -2px;
+                    }
+                }
+                .btn {
+                    float: right;
+                    height: 30px;
+                    color: #fff;
+                    font-size: 12px;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        .modal-dialog {
+            margin-left: 10px;
+            margin-top: 65px;
+            width: 360px;
+        }
+    }
+    @media (min-width: $lg) {
+        .modal-dialog {
+            margin-left: auto;
+            margin-top: auto;
+            position: absolute;
+            top: 55px;
+            left: 50%;
+            margin-left: -580px;
+        }
+    }
+}

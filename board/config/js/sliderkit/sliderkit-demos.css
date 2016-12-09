@@ -1,0 +1,32 @@
+
+/*---------------------------------
+ *  Photos gallery > Standard
+ *---------------------------------*/
+.photosgallery-std{width:1000px;height:430px;padding:0 0 85px;}
+
+/* Navbar */
+.photosgallery-std .sliderkit-nav{left:0;bottom:0;width:1000px;padding-top:20px;}
+.photosgallery-std .sliderkit-nav-clip ul li{float:left;width:108px;height:65px;margin:0 3px;}
+.photosgallery-std .sliderkit-nav-clip ul li a{display:block;width:108px;height:65px;overflow:hidden;margin:0;padding:0px;position:relative;}
+.photosgallery-std .sliderkit-nav-clip ul li p {display:none;position:absolute;}
+.photosgallery-std .sliderkit-nav-clip ul li.sliderkit-selected a{}
+.photosgallery-std .sliderkit-nav-clip ul li.sliderkit-selected p{display:block;}
+
+/* Buttons */
+.photosgallery-std .sliderkit-btn{position:absolute;}
+.photosgallery-std .sliderkit-btn span{display:none;}
+.photosgallery-std .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;cursor:default;}
+.photosgallery-std .sliderkit-btn-disable a:hover{cursor:default;}
+
+/* Panels buttons */
+.photosgallery-std .sliderkit-go-btn{position:absolute;top:20px;z-index:10;width:30px;height:65px;}
+.photosgallery-std .sliderkit-go-prev{left:0;}
+.photosgallery-std .sliderkit-go-next{right:0;}
+.photosgallery-std .sliderkit-go-btn a{display:block;width:30px;height:65px;cursor:pointer;background-color:#fff;background-repeat:no-repeat;background-position:center center;}
+.photosgallery-std .sliderkit-go-prev a{background-image:url("/images/about/btn_prev.gif");}
+.photosgallery-std .sliderkit-go-next a{background-image:url("/images/about/btn_next.gif");}
+.photosgallery-std .sliderkit-btn-disable a{opacity:0/*can be set to any value until 1*/;cursor:default;}
+.photosgallery-std .sliderkit-go-btn span{display:none;}
+
+/* Panel */
+.photosgallery-std .sliderkit-panel{top:0;left:0;width:1000px;height:430px;}

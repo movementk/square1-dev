@@ -1,0 +1,898 @@
+@charset "UTF-8";
+/* 스퀘어원 소개 헤더 공통 */
+.sub.introduce #header {
+  background-image: url(/assets/images/introduce/intro_head_bg.jpg); }
+
+.sub.introduce #content .page-header h2 {
+  font-size: 22px;
+  color: #ec6708;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+@media (min-width: 768px) {
+  .sub.introduce #content .page-header p {
+    font-size: 16px; } }
+
+.sub.introduce.company .page-summary {
+  text-align: center; }
+  .sub.introduce.company .page-summary h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ec6708;
+    font-weight: 300;
+    letter-spacing: -2px; }
+  .sub.introduce.company .page-summary p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333;
+    word-break: keep-all; }
+  @media (min-width: 768px) {
+    .sub.introduce.company .page-summary h3 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 30px;
+      line-height: 45px; }
+    .sub.introduce.company .page-summary p {
+      font-size: 16px;
+      line-height: 30px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company .page-summary h3 {
+      margin-top: 10px;
+      margin-bottom: 30px; } }
+
+.sub.introduce.company.square1 .page-header {
+  background-image: url(/assets/images/introduce/bg_company.gif);
+  background-repeat: no-repeat;
+  background-position: 30% 100%;
+  background-size: 200% auto; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.square1 .page-header {
+      background-position: 50% 100%;
+      background-size: 150% auto; } }
+  @media (min-width: 992px) {
+    .sub.introduce.company.square1 .page-header {
+      background-size: 100% auto; } }
+.sub.introduce.company.square1 .summary {
+  margin-top: 40px;
+  text-align: left; }
+  .sub.introduce.company.square1 .summary h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ec6708;
+    font-weight: 300;
+    letter-spacing: -2px; }
+  .sub.introduce.company.square1 .summary .detials {
+    color: #333; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.square1 .summary {
+      margin-top: 90px; }
+      .sub.introduce.company.square1 .summary h3 {
+        font-size: 30px;
+        line-height: 45px; }
+      .sub.introduce.company.square1 .summary .figure {
+        margin-top: 50px; }
+      .sub.introduce.company.square1 .summary .detials {
+        margin-top: 25px;
+        font-size: 16px;
+        line-height: 30px; } }
+  @media (min-width: 992px) {
+    .sub.introduce.company.square1 .summary .figure {
+      margin-top: 20px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.square1 .summary {
+      margin-top: 160px;
+      margin-bottom: 160px; }
+      .sub.introduce.company.square1 .summary h3 {
+        margin-right: -30px; }
+      .sub.introduce.company.square1 .summary .detials {
+        margin-top: 5px;
+        margin-right: -30px; }
+      .sub.introduce.company.square1 .summary .figure {
+        margin-top: 60px;
+        margin-left: 50px; } }
+.sub.introduce.company.square1 .feature {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ec6708;
+  color: #fff; }
+  .sub.introduce.company.square1 .feature ul li {
+    padding-right: 15px; }
+    .sub.introduce.company.square1 .feature ul li span {
+      overflow: hidden;
+      display: block;
+      height: 35px;
+      font-family: 'Lato', sans-serif;
+      font-size: 70px;
+      line-height: 60px;
+      font-weight: bold; }
+    .sub.introduce.company.square1 .feature ul li h4 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      line-height: 30px; }
+    .sub.introduce.company.square1 .feature ul li p {
+      font-size: 12px;
+      line-height: 22px;
+      word-break: keep-all; }
+    .sub.introduce.company.square1 .feature ul li:nth-of-type(2n+1) {
+      clear: both; }
+    .sub.introduce.company.square1 .feature ul li:nth-of-type(2) ~ li {
+      margin-top: 40px; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.square1 .feature {
+      padding-top: 55px;
+      padding-bottom: 55px; }
+      .sub.introduce.company.square1 .feature ul li {
+        padding-right: 0; }
+        .sub.introduce.company.square1 .feature ul li span {
+          height: 40px;
+          font-size: 80px;
+          line-height: 65px; }
+        .sub.introduce.company.square1 .feature ul li h4 {
+          margin-top: 25px;
+          margin-bottom: 25px;
+          font-size: 24px;
+          line-height: 30px; }
+        .sub.introduce.company.square1 .feature ul li p {
+          font-size: 14px;
+          line-height: 24px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.square1 .feature {
+      padding-top: 110px;
+      padding-bottom: 110px; }
+      .sub.introduce.company.square1 .feature ul li {
+        padding-right: 15px; }
+        .sub.introduce.company.square1 .feature ul li:nth-of-type(2n+1) {
+          clear: none; }
+        .sub.introduce.company.square1 .feature ul li:nth-of-type(2) ~ li {
+          margin-top: 0; } }
+.sub.introduce.company.square1 .figure ul li p {
+  display: block; }
+  .sub.introduce.company.square1 .figure ul li p img {
+    display: block; }
+@media (min-width: 768px) {
+  .sub.introduce.company.square1 .figure ul {
+    overflow: hidden; }
+    .sub.introduce.company.square1 .figure ul li {
+      float: left;
+      width: 50%; } }
+
+@media (min-width: 1200px) {
+  .sub.introduce.company.concept #content {
+    background-image: url(/assets/images/introduce/bg_concept.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 70%; } }
+.sub.introduce.company.concept .page-summary {
+  margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .page-summary {
+      margin-bottom: 50px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.concept .page-summary {
+      margin-bottom: 80px; } }
+.sub.introduce.company.concept .concept-container {
+  padding-left: 10px;
+  padding-right: 10px; }
+.sub.introduce.company.concept .concept-content {
+  display: table;
+  table-layout: fixed;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 240px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .sub.introduce.company.concept .concept-content div {
+    display: table-cell;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    .sub.introduce.company.concept .concept-content div span {
+      font-family: 'Lato', sans-serif;
+      font-size: 50px;
+      font-weight: 300;
+      color: #fff;
+      opacity: .2; }
+    .sub.introduce.company.concept .concept-content div p {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 300;
+      color: #fff; }
+      .sub.introduce.company.concept .concept-content div p i {
+        display: block;
+        font-style: normal;
+        line-height: 24px; }
+      .sub.introduce.company.concept .concept-content div p b {
+        display: block;
+        font-size: 26px;
+        line-height: 30px; }
+  .sub.introduce.company.concept .concept-content.concept-1 {
+    background-image: url(/assets/images/introduce/bg_concept_1.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-1 div:last-child {
+      display: none; }
+    .sub.introduce.company.concept .concept-content.concept-1 div p b {
+      color: #ec6708; }
+  .sub.introduce.company.concept .concept-content.concept-2 {
+    background-position: 50% 80%;
+    background-image: url(/assets/images/introduce/bg_concept_2.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-2 div {
+      background-color: rgba(0, 0, 0, 0.5); }
+      .sub.introduce.company.concept .concept-content.concept-2 div:last-child {
+        display: none; }
+      .sub.introduce.company.concept .concept-content.concept-2 div p b {
+        color: #7092e1; }
+  .sub.introduce.company.concept .concept-content.concept-3 {
+    background-image: url(/assets/images/introduce/bg_concept_3.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-3 div {
+      background-color: rgba(0, 0, 0, 0.5); }
+      .sub.introduce.company.concept .concept-content.concept-3 div:first-child {
+        display: none; }
+      .sub.introduce.company.concept .concept-content.concept-3 div p b {
+        color: #faac1a; }
+  .sub.introduce.company.concept .concept-content.concept-4 {
+    background-image: url(/assets/images/introduce/bg_concept_4.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-4 div:first-child {
+      display: none; }
+    .sub.introduce.company.concept .concept-content.concept-4 div p b {
+      color: #aacf3a; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .concept-content {
+      margin-bottom: 25px;
+      height: 354px; }
+      .sub.introduce.company.concept .concept-content div span {
+        font-size: 70px; }
+      .sub.introduce.company.concept .concept-content div p i {
+        font-size: 30px;
+        line-height: 36px; }
+      .sub.introduce.company.concept .concept-content div p b {
+        margin-top: 10px;
+        font-size: 36px;
+        line-height: 40px; }
+      .sub.introduce.company.concept .concept-content.concept-2 {
+        background-image: none;
+        box-shadow: 0 -1px 5px 5px rgba(0, 0, 0, 0.03); }
+        .sub.introduce.company.concept .concept-content.concept-2 div {
+          background-color: #fff; }
+          .sub.introduce.company.concept .concept-content.concept-2 div:last-child {
+            display: table-cell;
+            background-image: url(/assets/images/introduce/bg_concept_2.jpg); }
+          .sub.introduce.company.concept .concept-content.concept-2 div span {
+            color: #000;
+            opacity: .1; }
+          .sub.introduce.company.concept .concept-content.concept-2 div p i {
+            color: #666; }
+          .sub.introduce.company.concept .concept-content.concept-2 div p b {
+            color: #204499; }
+      .sub.introduce.company.concept .concept-content.concept-3 {
+        background-image: none;
+        box-shadow: 0 -1px 5px 5px rgba(0, 0, 0, 0.03); }
+        .sub.introduce.company.concept .concept-content.concept-3 div {
+          background-color: #fff; }
+          .sub.introduce.company.concept .concept-content.concept-3 div:first-child {
+            display: table-cell;
+            background-image: url(/assets/images/introduce/bg_concept_3.jpg); }
+          .sub.introduce.company.concept .concept-content.concept-3 div span {
+            color: #000;
+            opacity: .1; }
+          .sub.introduce.company.concept .concept-content.concept-3 div p i {
+            color: #666; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.concept .concept-content {
+      margin-bottom: 30px;
+      height: 430px; }
+      .sub.introduce.company.concept .concept-content div p {
+        margin-top: 20px; }
+        .sub.introduce.company.concept .concept-content div p b {
+          margin-top: 10px;
+          font-size: 39px;
+          line-height: 45px; }
+      .sub.introduce.company.concept .concept-content.concept-1 div:last-child {
+        display: table-cell; }
+      .sub.introduce.company.concept .concept-content.concept-4 div:first-child {
+        display: table-cell; } }
+.sub.introduce.company.concept .concept-slogan {
+  margin-bottom: 10px;
+  background-image: url(/assets/images/introduce/concept_pattern.png); }
+  .sub.introduce.company.concept .concept-slogan .slogan-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center; }
+    .sub.introduce.company.concept .concept-slogan .slogan-content i {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px; }
+      .sub.introduce.company.concept .concept-slogan .slogan-content i span {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400; }
+    .sub.introduce.company.concept .concept-slogan .slogan-content .bar {
+      display: block;
+      margin: 20px auto;
+      width: 37px;
+      height: 3px;
+      background-color: #fff; }
+    .sub.introduce.company.concept .concept-slogan .slogan-content p {
+      font-size: 30px;
+      line-height: 36px;
+      font-family: 'Jeju Myeongjo', serif; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .concept-slogan {
+      margin-bottom: 25px; }
+      .sub.introduce.company.concept .concept-slogan .slogan-content {
+        padding-top: 90px;
+        padding-bottom: 90px; }
+        .sub.introduce.company.concept .concept-slogan .slogan-content i {
+          font-size: 27px; }
+        .sub.introduce.company.concept .concept-slogan .slogan-content p {
+          font-size: 45px;
+          line-height: 50px; } }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .concept-slogan {
+      margin-bottom: 30px; } }
+
+.sub.introduce.company.bi .page-summary {
+  margin-bottom: 40px; }
+  .sub.introduce.company.bi .page-summary p .red {
+    color: #ec6708; }
+  .sub.introduce.company.bi .page-summary p .blue {
+    color: #204499; }
+  .sub.introduce.company.bi .page-summary p .orange {
+    color: #faac1a; }
+  .sub.introduce.company.bi .page-summary p .green {
+    color: #aacf3a; }
+.sub.introduce.company.bi .bi-content {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  border-top: 1px solid #ccc; }
+  .sub.introduce.company.bi .bi-content .row {
+    padding-left: 0;
+    padding-right: 0; }
+  .sub.introduce.company.bi .bi-content header {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .sub.introduce.company.bi .bi-content header h4 {
+      margin-top: -1px;
+      padding-top: 10px;
+      width: 140px;
+      font-family: 'Lato', sans-serif;
+      color: #ec6708;
+      font-size: 24px;
+      line-height: 45px;
+      border-top: 1px solid #ec6708;
+      letter-spacing: -1px; }
+  .sub.introduce.company.bi .bi-content .details {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .sub.introduce.company.bi .bi-content .details p {
+      letter-spacing: -1px; }
+      .sub.introduce.company.bi .bi-content .details p + p {
+        margin-top: 25px; }
+  .sub.introduce.company.bi .bi-content .figure {
+    margin-top: 15px; }
+    .sub.introduce.company.bi .bi-content .figure .img-responsive {
+      margin: 0 auto; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.bi .bi-content {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 40px; }
+      .sub.introduce.company.bi .bi-content header {
+        margin-left: -10px;
+        margin-right: -20px; }
+        .sub.introduce.company.bi .bi-content header h4 {
+          padding-top: 30px;
+          padding-left: 15px;
+          width: 186px;
+          font-size: 30px; }
+      .sub.introduce.company.bi .bi-content .details {
+        margin-left: -20px;
+        margin-top: 35px; }
+      .sub.introduce.company.bi .bi-content .figure {
+        margin-top: 25px;
+        margin-left: -20px; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-2 {
+        margin-left: 0; } }
+  @media (min-width: 992px) {
+    .sub.introduce.company.bi .bi-content.bi-logo .figure-2 {
+      overflow: hidden;
+      height: 190px;
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-2 .img-responsive {
+        margin-top: -8px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.bi .bi-content {
+      margin-bottom: 65px; }
+      .sub.introduce.company.bi .bi-content header h4 {
+        padding-top: 55px;
+        width: 200px; }
+      .sub.introduce.company.bi .bi-content .details {
+        margin-top: 60px;
+        margin-left: 0; }
+      .sub.introduce.company.bi .bi-content .figure {
+        margin-top: 40px;
+        margin-left: 0; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-1 {
+        overflow: hidden;
+        height: 242px;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf; }
+        .sub.introduce.company.bi .bi-content.bi-logo .figure-1 .img-responsive {
+          margin-top: -12px; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-2 {
+        height: auto;
+        border-top: 0;
+        border-bottom: 0; } }
+
+/* location */
+.location {
+  padding-bottom: 60px; }
+  @media (min-width: 768px) {
+    .location {
+      padding-bottom: 85px; } }
+  @media (min-width: 768px) {
+    .location {
+      padding-bottom: 120px; } }
+  .location .section-content .map-info {
+    max-width: 1200px;
+    margin: 0 auto; }
+    .location .section-content .map-info .pn-icon {
+      float: right;
+      padding-right: 20px;
+      margin-bottom: 16px; }
+      .location .section-content .map-info .pn-icon a {
+        vertical-align: top;
+        display: inline-block; }
+        .location .section-content .map-info .pn-icon a i {
+          width: 28px;
+          height: 28px;
+          display: block;
+          font-size: 16px;
+          color: #fff;
+          text-align: center;
+          line-height: 28px;
+          border-radius: 50%; }
+          .location .section-content .map-info .pn-icon a i.icon-naver {
+            line-height: 25px;
+            margin-right: 3px;
+            background-color: #2db400; }
+            .location .section-content .map-info .pn-icon a i.icon-naver img {
+              width: 13px; }
+          .location .section-content .map-info .pn-icon a i.icon-print {
+            background-color: #acacac; }
+      @media (min-width: 1200px) {
+        .location .section-content .map-info .pn-icon {
+          padding-right: 0; } }
+    .location .section-content .map-info .maps img {
+      display: block;
+      margin: 0 auto; }
+    .location .section-content .map-info .addr {
+      width: 100%;
+      padding: 5px 0;
+      text-align: center;
+      background-color: #fff; }
+      .location .section-content .map-info .addr dt {
+        display: inline-block;
+        font-size: 14px;
+        color: #666;
+        font-weight: 400;
+        line-height: 24px;
+        margin-right: 5px; }
+      .location .section-content .map-info .addr dd {
+        display: inline-block;
+        font-size: 14px;
+        color: #333;
+        font-weight: 400;
+        line-height: 24px; }
+        .location .section-content .map-info .addr dd.block-dd {
+          display: block; }
+      @media (min-width: 768px) {
+        .location .section-content .map-info .addr {
+          padding: 33px 0; }
+          .location .section-content .map-info .addr dt {
+            font-size: 16px; }
+            .location .section-content .map-info .addr dt.call {
+              margin-left: 18px; }
+          .location .section-content .map-info .addr dd {
+            font-size: 16px; } }
+  .location .section-content .traffic {
+    margin-top: 25px; }
+    @media (min-width: 768px) {
+      .location .section-content .traffic dl {
+        overflow: hidden; } }
+    .location .section-content .traffic dl dt {
+      font-size: 20px;
+      color: #ec6708;
+      text-align: left;
+      font-weight: bold;
+      padding-top: 25px;
+      padding-bottom: 20px;
+      border-top: 1px solid #ec6708; }
+      @media (min-width: 768px) {
+        .location .section-content .traffic dl dt {
+          float: left;
+          width: 25%;
+          font-size: 30px;
+          padding-left: 15px; } }
+    @media (min-width: 768px) {
+      .location .section-content .traffic dl dd {
+        float: left;
+        width: 75%;
+        padding-left: 40px;
+        border-top: 1px solid #dfdfdf; } }
+    .location .section-content .traffic .subway dl dd {
+      font-size: 14px;
+      color: #666;
+      padding-bottom: 25px; }
+      .location .section-content .traffic .subway dl dd h5 {
+        display: inline-block;
+        width: 60px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #000;
+        text-align: center;
+        margin-right: 10px;
+        border-radius: 50px;
+        border: 5px solid #45b5f4;
+        background-color: #fff; }
+        .location .section-content .traffic .subway dl dd h5 i {
+          font-style: normal; }
+      .location .section-content .traffic .subway dl dd b {
+        color: #1568c6; }
+    @media (min-width: 768px) {
+      .location .section-content .traffic .subway dl dt {
+        padding-top: 55px;
+        padding-bottom: 55px; }
+      .location .section-content .traffic .subway dl dd {
+        font-size: 16px;
+        padding-top: 55px;
+        padding-bottom: 55px; }
+        .location .section-content .traffic .subway dl dd h5 {
+          width: 170px;
+          height: 40px; }
+          .location .section-content .traffic .subway dl dd h5 i {
+            font-size: 11px;
+            color: #1568c6;
+            padding-left: 2px;
+            padding-right: 2px;
+            border: 1px solid #1568c6;
+            border-radius: 30px;
+            background-color: #fff;
+            margin-right: 10px; }
+        .location .section-content .traffic .subway dl dd b {
+          font-weight: 400;
+          color: #666; } }
+    @media (min-width: 768px) {
+      .location .section-content .traffic .bus dl dt {
+        padding-top: 60px; } }
+    .location .section-content .traffic .bus dl dd h5 {
+      font-size: 16px;
+      color: #ec6708;
+      font-weight: 400;
+      margin: 25px 0 18px; }
+      .location .section-content .traffic .bus dl dd h5:nth-of-type(1) {
+        margin-top: 0; }
+      @media (min-width: 768px) {
+        .location .section-content .traffic .bus dl dd h5 {
+          margin-top: 30px; } }
+    .location .section-content .traffic .bus dl dd ul li p {
+      height: 27px;
+      font-size: 14px;
+      color: #666;
+      line-height: 27px;
+      font-weight: 400;
+      font-family: 'Lato', sans-serif; }
+      @media (min-width: 768px) {
+        .location .section-content .traffic .bus dl dd ul li p {
+          font-size: 16px; } }
+      .location .section-content .traffic .bus dl dd ul li p span {
+        display: inline-block;
+        width: 50px;
+        height: 27px;
+        line-height: 27px;
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+        margin-right: 10px;
+        border-radius: 3px;
+        font-family: 'Noto Sans KR', sans-serif; }
+        @media (min-width: 768px) {
+          .location .section-content .traffic .bus dl dd ul li p span {
+            font-size: 16px; } }
+        .location .section-content .traffic .bus dl dd ul li p span.blue {
+          background-color: #395cb3; }
+        .location .section-content .traffic .bus dl dd ul li p span.purple {
+          background-color: #9c40bf; }
+        .location .section-content .traffic .bus dl dd ul li p span.red {
+          background-color: #c91017; }
+        .location .section-content .traffic .bus dl dd ul li p span.green {
+          background-color: #4a972e; }
+      .location .section-content .traffic .bus dl dd ul li p.mb {
+        margin-bottom: 10px; }
+        @media (min-width: 768px) {
+          .location .section-content .traffic .bus dl dd ul li p.mb {
+            margin-bottom: 18px; } }
+        @media (min-width: 992px) {
+          .location .section-content .traffic .bus dl dd ul li p.mb {
+            margin-bottom: 30px; } }
+    .location .section-content .traffic .bus dl dd ul.row {
+      margin-left: -5px;
+      margin-right: -5px; }
+      @media (min-width: 768px) {
+        .location .section-content .traffic .bus dl dd ul.row {
+          margin-left: -10px;
+          margin-right: -10px; } }
+    @media (min-width: 768px) {
+      .location .section-content .traffic .bus dl dd {
+        padding-top: 65px; } }
+
+/* special */
+.special .page-summary {
+  text-align: center;
+  margin-bottom: 40px; }
+  .special .page-summary h3 {
+    font-size: 22px;
+    color: #ec6708;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 25px; }
+    @media (min-width: 768px) {
+      .special .page-summary h3 {
+        font-size: 30px;
+        line-height: 45px; } }
+  .special .page-summary p {
+    font-size: 13px;
+    color: #333;
+    font-weight: 500; }
+    @media (min-width: 768px) {
+      .special .page-summary p {
+        font-size: 16px; } }
+  @media (min-width: 768px) {
+    .special .page-summary {
+      margin-bottom: 60px; } }
+@media (min-width: 1200px) {
+  .special .square1-special {
+    padding-bottom: 120px; } }
+.special .square1-special .container {
+  padding-left: 0;
+  padding-right: 0; }
+  @media (min-width: 1200px) {
+    .special .square1-special .container {
+      padding-left: 25px;
+      padding-right: 25px; } }
+  .special .square1-special .container .row {
+    margin-left: -5px;
+    margin-right: -5px; }
+    @media (min-width: 768px) {
+      .special .square1-special .container .row {
+        margin-left: -10px;
+        margin-right: -10px; } }
+    .special .square1-special .container .row div {
+      display: table;
+      padding-left: 0;
+      padding-right: 0; }
+      .special .square1-special .container .row div .meaning {
+        position: relative;
+        display: table-cell;
+        height: 160px;
+        text-align: center;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%; }
+        @media (min-width: 768px) {
+          .special .square1-special .container .row div .meaning {
+            height: 256px; } }
+        @media (min-width: 1200px) {
+          .special .square1-special .container .row div .meaning {
+            height: 300px; } }
+        .special .square1-special .container .row div .meaning .summary {
+          display: none; }
+        .special .square1-special .container .row div .meaning:hover .summary, .special .square1-special .container .row div .meaning:focus .summary {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 160px;
+          text-align: center;
+          padding-top: 30px;
+          -webkit-transition: background-color .3s;
+          -moz-transition: background-color .3s;
+          -o-transition: background-color .3s;
+          transition: background-color .3s; }
+          .special .square1-special .container .row div .meaning:hover .summary h5, .special .square1-special .container .row div .meaning:focus .summary h5 {
+            font-size: 16px;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 10px; }
+          .special .square1-special .container .row div .meaning:hover .summary p, .special .square1-special .container .row div .meaning:focus .summary p {
+            font-size: 12px;
+            color: #fff;
+            line-height: 15px;
+            font-weight: 300; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning:hover .summary, .special .square1-special .container .row div .meaning:focus .summary {
+              height: 256px;
+              padding-top: 60px; }
+              .special .square1-special .container .row div .meaning:hover .summary h5, .special .square1-special .container .row div .meaning:focus .summary h5 {
+                font-size: 24px;
+                margin-bottom: 20px; }
+              .special .square1-special .container .row div .meaning:hover .summary p, .special .square1-special .container .row div .meaning:focus .summary p {
+                font-size: 14px;
+                line-height: 24px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning:hover .summary, .special .square1-special .container .row div .meaning:focus .summary {
+              height: 300px;
+              padding-top: 75px; }
+              .special .square1-special .container .row div .meaning:hover .summary h5, .special .square1-special .container .row div .meaning:focus .summary h5 {
+                font-size: 30px; }
+              .special .square1-special .container .row div .meaning:hover .summary p, .special .square1-special .container .row div .meaning:focus .summary p {
+                font-size: 16px;
+                line-height: 28px; } }
+        .special .square1-special .container .row div .meaning:hover.square-s .summary:hover, .special .square1-special .container .row div .meaning:focus.square-s .summary:hover {
+          background-color: #204499; }
+        .special .square1-special .container .row div .meaning:hover.square-q .summary:hover, .special .square1-special .container .row div .meaning:focus.square-q .summary:hover {
+          background-color: #fa9e1a; }
+        .special .square1-special .container .row div .meaning:hover.square-u .summary:hover, .special .square1-special .container .row div .meaning:focus.square-u .summary:hover {
+          background-color: #9cc425; }
+        .special .square1-special .container .row div .meaning:hover.square-a .summary:hover, .special .square1-special .container .row div .meaning:focus.square-a .summary:hover {
+          background-color: #ec6708; }
+        .special .square1-special .container .row div .meaning:hover.square-r .summary:hover, .special .square1-special .container .row div .meaning:focus.square-r .summary:hover {
+          background-color: #204499; }
+        .special .square1-special .container .row div .meaning:hover.square-e .summary:hover, .special .square1-special .container .row div .meaning:focus.square-e .summary:hover {
+          background-color: #fa9e1a; }
+        .special .square1-special .container .row div .meaning:hover.square-1st .summary:hover, .special .square1-special .container .row div .meaning:focus.square-1st .summary:hover {
+          background-color: #9cc425; }
+        .special .square1-special .container .row div .meaning h4 {
+          font-size: 18px;
+          color: #fff;
+          font-weight: bold;
+          font-family: 'Noto Sans KR', sans-serif; }
+          .special .square1-special .container .row div .meaning h4 i {
+            font-style: normal;
+            font-size: 24px;
+            font-weight: 400; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning h4 {
+              font-size: 30px; }
+              .special .square1-special .container .row div .meaning h4 i {
+                font-size: 40px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning h4 {
+              font-size: 34px; }
+              .special .square1-special .container .row div .meaning h4 i {
+                font-size: 45px; } }
+        .special .square1-special .container .row div .meaning figure img {
+          margin: 0 auto; }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning figure img {
+              padding: 0; } }
+        .special .square1-special .container .row div .meaning figure figcaption h4 {
+          font-size: 16px;
+          color: #fff;
+          font-weight: 400;
+          font-family: 'Lato', sans-serif; }
+          .special .square1-special .container .row div .meaning figure figcaption h4 b {
+            font-weight: 400;
+            font-size: 24px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning figure figcaption h4 {
+              font-size: 24px; }
+              .special .square1-special .container .row div .meaning figure figcaption h4 b {
+                font-size: 36px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning figure figcaption h4 {
+              font-size: 27px; }
+              .special .square1-special .container .row div .meaning figure figcaption h4 b {
+                font-size: 42px; } }
+        .special .square1-special .container .row div .meaning.square-one {
+          background-color: #ec6708; }
+        .special .square1-special .container .row div .meaning.square-s {
+          background-image: url(/assets/images/introduce/square_s_bg.gif); }
+          .special .square1-special .container .row div .meaning.square-s figure img {
+            padding: 0 62px; }
+          .special .square1-special .container .row div .meaning.square-s figure figcaption {
+            margin-top: 14px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning.square-s figure img {
+              padding: 0 98px; }
+            .special .square1-special .container .row div .meaning.square-s figure figcaption {
+              margin-top: 24px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning.square-s figure figcaption {
+              margin-top: 27px; } }
+        .special .square1-special .container .row div .meaning.square-q {
+          background-image: url(/assets/images/introduce/square_q_bg.gif); }
+          .special .square1-special .container .row div .meaning.square-q figure img {
+            padding: 0 60px; }
+          .special .square1-special .container .row div .meaning.square-q figure figcaption {
+            margin-top: 15px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning.square-q figure img {
+              padding: 0 96px; }
+            .special .square1-special .container .row div .meaning.square-q figure figcaption {
+              margin-top: 25px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning.square-q figure figcaption {
+              margin-top: 28px; } }
+        .special .square1-special .container .row div .meaning.square-u {
+          background-image: url(/assets/images/introduce/square_u_bg.gif); }
+          .special .square1-special .container .row div .meaning.square-u figure img {
+            padding: 0 57px; }
+          .special .square1-special .container .row div .meaning.square-u figure figcaption {
+            margin-top: 17px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning.square-u figure img {
+              padding: 0 92px; }
+            .special .square1-special .container .row div .meaning.square-u figure figcaption {
+              margin-top: 29px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning.square-u figure figcaption {
+              margin-top: 33px; } }
+        .special .square1-special .container .row div .meaning.square-a {
+          background-image: url(/assets/images/introduce/square_a_bg.gif); }
+          .special .square1-special .container .row div .meaning.square-a figure img {
+            padding: 0 64px; }
+          .special .square1-special .container .row div .meaning.square-a figure figcaption {
+            margin-top: 20px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning.square-a figure img {
+              padding: 0 101px; }
+            .special .square1-special .container .row div .meaning.square-a figure figcaption {
+              margin-top: 32px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning.square-a figure figcaption {
+              margin-top: 36px; } }
+        .special .square1-special .container .row div .meaning.square-r {
+          background-image: url(/assets/images/introduce/square_r_bg.gif); }
+          .special .square1-special .container .row div .meaning.square-r figure img {
+            padding: 0 66px; }
+          .special .square1-special .container .row div .meaning.square-r figure figcaption {
+            margin-top: 19px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning.square-r figure img {
+              padding: 0 107px; }
+            .special .square1-special .container .row div .meaning.square-r figure figcaption {
+              margin-top: 31px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning.square-r figure figcaption {
+              margin-top: 34px; } }
+        .special .square1-special .container .row div .meaning.square-e {
+          background-image: url(/assets/images/introduce/square_e_bg.gif); }
+          .special .square1-special .container .row div .meaning.square-e figure img {
+            padding: 0 61px; }
+          .special .square1-special .container .row div .meaning.square-e figure figcaption {
+            margin-top: 18px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning.square-e figure img {
+              padding: 0 99px; }
+            .special .square1-special .container .row div .meaning.square-e figure figcaption {
+              margin-top: 31px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning.square-e figure figcaption {
+              margin-top: 34px; } }
+        .special .square1-special .container .row div .meaning.square-1st {
+          background-image: url(/assets/images/introduce/square_1st_bg.gif); }
+          .special .square1-special .container .row div .meaning.square-1st figure img {
+            padding: 0 66px; }
+          .special .square1-special .container .row div .meaning.square-1st figure figcaption {
+            margin-top: 15px; }
+          @media (min-width: 768px) {
+            .special .square1-special .container .row div .meaning.square-1st figure img {
+              padding: 0 105px; }
+            .special .square1-special .container .row div .meaning.square-1st figure figcaption {
+              margin-top: 24px; } }
+          @media (min-width: 1200px) {
+            .special .square1-special .container .row div .meaning.square-1st figure figcaption {
+              margin-top: 28px; } }
+
+/*# sourceMappingURL=introduce.css.map */

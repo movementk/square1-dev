@@ -1,0 +1,1130 @@
+@charset "UTF-8";
+.check-box label {
+  font-size: 13px;
+  color: #666;
+  font-weight: 300;
+  vertical-align: top;
+  margin-bottom: 0; }
+  .check-box label:last-child {
+    margin-left: 20px; }
+    @media (min-width: 768px) {
+      .check-box label:last-child {
+        margin-left: 80px; } }
+  .check-box label input[type=checkbox] {
+    margin-top: -2px;
+    margin-right: 5px;
+    vertical-align: middle; }
+
+/* member 공통 */
+.member #header {
+  background-image: url(/assets/images/member/membership_top_bg.jpg);
+  background-size: cover; }
+.member section .section-header {
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px; }
+  @media (min-width: 768px) {
+    .member section .section-header {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  .member section .section-header > h2 {
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+    color: #ec6708; }
+    @media (min-width: 768px) {
+      .member section .section-header > h2 {
+        font-size: 33px; } }
+  .member section .section-header > hr {
+    display: block;
+    width: 48px;
+    margin: 18px auto;
+    border-top: 3px solid #ec6708; }
+  .member section .section-header > p {
+    font-size: 13px;
+    color: #111;
+    line-height: 24px; }
+    @media (min-width: 768px) {
+      .member section .section-header > p {
+        font-size: 16px;
+        line-height: 28px; } }
+.member section .section-content .procedure {
+  padding: 26px 7px;
+  margin-bottom: 45px;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    .member section .section-content .procedure {
+      padding: 0;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      margin-bottom: 60px; } }
+  @media (min-width: 992px) {
+    .member section .section-content .procedure {
+      margin-bottom: 84px; } }
+  .member section .section-content .procedure ol li {
+    position: relative;
+    display: inline-block;
+    width: 24.26%;
+    text-align: center;
+    vertical-align: top; }
+    @media (min-width: 768px) {
+      .member section .section-content .procedure ol li {
+        width: 24.67%; } }
+    .member section .section-content .procedure ol li .pcd-img {
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        .member section .section-content .procedure ol li .pcd-img {
+          display: inline-block;
+          margin-bottom: 0;
+          margin-right: 15px; } }
+    .member section .section-content .procedure ol li h3 {
+      display: inline-block;
+      font-size: 13px;
+      color: #b5b5b5;
+      font-weight: 400;
+      line-height: 16px; }
+      @media (min-width: 768px) {
+        .member section .section-content .procedure ol li h3 {
+          display: inline-block;
+          font-size: 15px;
+          vertical-align: middle; } }
+    .member section .section-content .procedure ol li:after {
+      position: absolute;
+      top: 5%;
+      right: -10.2px;
+      font-family: "fontello";
+      content: "\F105";
+      font-size: 30px;
+      color: #b5b5b5; }
+      @media (min-width: 768px) {
+        .member section .section-content .procedure ol li:after {
+          font-size: 36px;
+          top: 10%; } }
+    .member section .section-content .procedure ol li.active h3 {
+      color: #ec6708; }
+    .member section .section-content .procedure ol li.active:after {
+      color: #ec6708; }
+    .member section .section-content .procedure ol li:last-child:after {
+      content: "";
+      display: inline-block;
+      clear: both; }
+
+/* mypage tab header 공통부분 */
+.member.mypage #content .page-header h2 {
+  font-size: 27px;
+  font-family: 'Lato', sans-serif;
+  color: #ec6708; }
+  @media (min-width: 768px) {
+    .member.mypage #content .page-header h2 {
+      font-size: 33px; } }
+.member.mypage #content .page-header hr {
+  display: block;
+  width: 48px;
+  margin: 18px auto;
+  border-top: 3px solid #ec6708; }
+.member.mypage #content .page-header p {
+  font-size: 13px;
+  color: #111;
+  line-height: 24px; }
+  @media (min-width: 768px) {
+    .member.mypage #content .page-header p {
+      font-size: 16px;
+      line-height: 28px; } }
+  .member.mypage #content .page-header p i {
+    font-style: normal;
+    color: #ec6708; }
+
+/* Login */
+.login {
+  padding-bottom: 60px; }
+  @media (min-width: 768px) {
+    .login {
+      padding-left: 44px;
+      padding-right: 44px;
+      padding-bottom: 80px; } }
+  @media (min-width: 992px) {
+    .login {
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 90px; } }
+  .login .section-content {
+    padding: 30px 20px 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .login .section-content {
+        padding: 82px 48px 128px; } }
+    @media (min-width: 992px) {
+      .login .section-content {
+        padding-left: 143px;
+        padding-right: 143px; } }
+    .login .section-content .login-form {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd; }
+      @media (min-width: 768px) {
+        .login .section-content .login-form {
+          text-align: center;
+          padding-bottom: 42px; } }
+      @media (min-width: 768px) {
+        .login .section-content .login-form .form-group {
+          width: 73.8%;
+          display: inline-block; } }
+      @media (min-width: 1200px) {
+        .login .section-content .login-form .form-group {
+          width: 81%; } }
+      .login .section-content .login-form .form-group .form-control {
+        margin-bottom: 15px;
+        height: 39px; }
+        @media (min-width: 768px) {
+          .login .section-content .login-form .form-group .form-control {
+            width: 100%;
+            margin-bottom: 18px; } }
+      @media (min-width: 768px) {
+        .login .section-content .login-form .btn-area {
+          margin-left: 13px;
+          display: inline-block;
+          vertical-align: top; } }
+    .login .section-content .dot-list {
+      padding-top: 30px; }
+      .login .section-content .dot-list li {
+        font-size: 12xpx;
+        color: #666;
+        font-weight: 300;
+        line-height: 20px;
+        margin-bottom: 20px; }
+        .login .section-content .dot-list li:last-child {
+          margin-bottom: 0; }
+        .login .section-content .dot-list li a {
+          font-size: 12xpx;
+          color: #666; }
+          .login .section-content .dot-list li a:hover, .login .section-content .dot-list li a:focus {
+            text-decoration: underline;
+            color: #ec6708; }
+        @media (min-width: 768px) {
+          .login .section-content .dot-list li {
+            position: relative;
+            font-size: 14px;
+            margin-bottom: 0;
+            line-height: 30px; }
+            .login .section-content .dot-list li a {
+              position: absolute;
+              top: 0;
+              right: 0; } }
+
+/* find */
+.find {
+  padding-bottom: 80px; }
+  @media (min-width: 768px) {
+    .find {
+      padding-left: 13px;
+      padding-right: 13px; } }
+  @media (min-width: 992px) {
+    .find {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 120px; } }
+  .find .section-content > h3 {
+    font-size: 14px;
+    color: #222;
+    margin-top: 44px;
+    margin-bottom: 15px; }
+    .find .section-content > h3:first-child {
+      margin-top: 0; }
+    @media (min-width: 768px) {
+      .find .section-content > h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .find .section-content .find-form {
+    padding: 30px 19px;
+    margin-bottom: 27px;
+    border: 1px solid #ddd;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .find .section-content .find-form {
+        padding: 35px 0; } }
+    .find .section-content .find-form dl dt {
+      margin-bottom: 10px; }
+      .find .section-content .find-form dl dt label {
+        font-size: 13px;
+        color: #666;
+        font-weight: 400;
+        margin-bottom: 0; }
+      .find .section-content .find-form dl dt.mt-dt {
+        margin-top: 18px; }
+    .find .section-content .find-form dl dd .form-control {
+      width: 100%;
+      height: 30px; }
+    .find .section-content .find-form dl dd.email {
+      position: relative;
+      padding-right: 110px; }
+      .find .section-content .find-form dl dd.email select {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        font-size: 12px;
+        padding: 0;
+        padding-left: 6px; }
+        @media (min-width: 768px) {
+          .find .section-content .find-form dl dd.email select {
+            width: 114px !important; } }
+      .find .section-content .find-form dl dd.email span {
+        display: none; }
+    @media (min-width: 768px) {
+      .find .section-content .find-form dl {
+        max-width: 458px;
+        margin: 0 auto;
+        overflow: hidden; }
+        .find .section-content .find-form dl dt {
+          float: left;
+          clear: both;
+          width: 200px;
+          height: 30px;
+          line-height: 30px;
+          margin-bottom: 20px; }
+          .find .section-content .find-form dl dt label {
+            font-size: 14px; }
+          .find .section-content .find-form dl dt.mt-dt {
+            margin: 0; }
+        .find .section-content .find-form dl dd {
+          float: left; }
+          .find .section-content .find-form dl dd .form-control {
+            width: 250px;
+            margin-bottom: 20px; }
+          .find .section-content .find-form dl dd.email {
+            padding-right: 144px; }
+            .find .section-content .find-form dl dd.email .form-control {
+              width: 137px;
+              display: inline-block; }
+            .find .section-content .find-form dl dd.email span {
+              font-size: 13px;
+              color: #666;
+              height: 30px;
+              line-height: 30px;
+              margin: 0 2px;
+              display: inline-block; } }
+    .find .section-content .find-form .reference {
+      display: block;
+      margin-top: 10px; }
+      @media (min-width: 768px) {
+        .find .section-content .find-form .reference {
+          margin-top: 0; } }
+
+/* terms */
+.terms {
+  padding-bottom: 117px; }
+  .terms .section-content article {
+    margin-bottom: 45px; }
+    .terms .section-content article:nth-of-type(3) {
+      margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .terms .section-content article {
+        margin-bottom: 78px; } }
+    .terms .section-content article h4 {
+      font-size: 14px;
+      color: #222;
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        .terms .section-content article h4 {
+          font-size: 16px;
+          margin-bottom: 20px; } }
+    .terms .section-content article .article-content {
+      width: 100%;
+      height: 165px;
+      font-size: 13px;
+      color: #666;
+      line-height: 18px;
+      overflow-y: scroll;
+      padding: 20px;
+      margin-bottom: 15px;
+      border: 1px solid #dfdfdf;
+      background-color: #fff; }
+      @media (min-width: 768px) {
+        .terms .section-content article .article-content {
+          padding: 27px 20px;
+          height: 350px; } }
+  .terms .section-content .email-terms .article-content {
+    height: auto; }
+  .terms .section-content .btn-area {
+    display: none; }
+    @media (min-width: 768px) {
+      .terms .section-content .btn-area {
+        display: block;
+        margin-top: 45px; } }
+
+/* sms */
+.sms {
+  padding-bottom: 78px; }
+  @media (min-width: 768px) {
+    .sms {
+      padding-bottom: 90px; } }
+  .sms .section-content .verify .article-header h4 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+  .sms .section-content .verify .article-header p {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px; }
+  @media (min-width: 768px) {
+    .sms .section-content .verify .article-header h4 {
+      font-size: 16px;
+      margin-bottom: 20px; }
+    .sms .section-content .verify .article-header p {
+      font-size: 13px;
+      margin-bottom: 20px; } }
+  .sms .section-content .verify .article-content {
+    text-align: center;
+    margin-top: 18px;
+    padding: 42px 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .sms .section-content .verify .article-content {
+        padding: 74px 30px; } }
+    .sms .section-content .verify .article-content .sms-img {
+      margin-bottom: 20px; }
+      @media (min-width: 768px) {
+        .sms .section-content .verify .article-content .sms-img {
+          margin-bottom: 0;
+          display: inline-block; } }
+    @media (min-width: 768px) {
+      .sms .section-content .verify .article-content .btn-area {
+        margin-left: 70px;
+        display: inline-block; } }
+    .sms .section-content .verify .article-content .dot-list {
+      width: 100%;
+      text-align: left;
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid #dfdfdf; }
+      .sms .section-content .verify .article-content .dot-list li {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 10px; }
+        .sms .section-content .verify .article-content .dot-list li:last-child {
+          margin-bottom: 0; }
+      @media (min-width: 768px) {
+        .sms .section-content .verify .article-content .dot-list {
+          margin-top: 75px;
+          padding-top: 30px; }
+          .sms .section-content .verify .article-content .dot-list li {
+            font-size: 13px;
+            line-height: 30px;
+            margin-bottom: 0; } }
+      @media (min-width: 992px) {
+        .sms .section-content .verify .article-content .dot-list li {
+          font-size: 14px; } }
+
+/* join */
+.join {
+  padding-bottom: 95px; }
+  @media (min-width: 768px) {
+    .join {
+      padding-bottom: 110px; } }
+  @media (min-width: 992px) {
+    .join {
+      padding-bottom: 115px; } }
+  .join .section-content .join-info h4 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .join .section-content .join-info h4 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .join .section-content .join-info > p {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 15px; }
+    .join .section-content .join-info > p:before {
+      content: "*";
+      font-size: 13px;
+      color: #f0585d;
+      margin-right: 2px; }
+    @media (min-width: 768px) {
+      .join .section-content .join-info > p {
+        font-size: 13px;
+        margin-bottom: 20px; } }
+  .join .section-content .join-info .input-form.type-1 dl dt {
+    padding-left: 4px;
+    padding-right: 4px; }
+    .join .section-content .join-info .input-form.type-1 dl dt.bold-before:before {
+      content: "*";
+      color: #f0585d;
+      margin-right: 2px; }
+    .join .section-content .join-info .input-form.type-1 dl dt.card {
+      padding-left: 13px; }
+      @media (min-width: 768px) {
+        .join .section-content .join-info .input-form.type-1 dl dt.card {
+          padding-left: 16px; } }
+  .join .section-content .join-info .input-form.type-1 dl dd .form-control {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px; }
+  .join .section-content .join-info .input-form.type-1 dl dd .attention {
+    display: none; }
+    @media (min-width: 768px) {
+      .join .section-content .join-info .input-form.type-1 dl dd .attention {
+        display: block;
+        font-size: 12px;
+        color: #666;
+        margin-top: 5px; } }
+    @media (min-width: 992px) {
+      .join .section-content .join-info .input-form.type-1 dl dd .attention {
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin: 0;
+        margin-left: 30px; } }
+  .join .section-content .join-info .input-form.type-1 dl dd .check-box label {
+    height: 30px;
+    line-height: 30px; }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-dd .form-control {
+    display: inline-block;
+    width: 210px;
+    margin-right: 7px; }
+    @media (min-width: 992px) {
+      .join .section-content .join-info .input-form.type-1 dl dd.user-dd .form-control {
+        margin-right: 20px; } }
+  @media (min-width: 768px) {
+    .join .section-content .join-info .input-form.type-1 dl dd.user-id .form-control {
+      width: 250px !important; } }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-pw .form-control {
+    display: inline-block; }
+  .join .section-content .join-info .input-form.type-1 dl dd.phone .form-control {
+    display: inline-block;
+    width: 90px; }
+  .join .section-content .join-info .input-form.type-1 dl dd.phone > select {
+    width: 66px !important; }
+  @media (min-width: 768px) {
+    .join .section-content .join-info .input-form.type-1 dl dd {
+      padding-right: 0; }
+      .join .section-content .join-info .input-form.type-1 dl dd ::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: transparent; }
+      .join .section-content .join-info .input-form.type-1 dl dd :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: transparent; }
+      .join .section-content .join-info .input-form.type-1 dl dd ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: transparent; }
+      .join .section-content .join-info .input-form.type-1 dl dd :-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: transparent; } }
+  .join .section-content .join-info .btn-area {
+    margin-top: 30px; }
+
+/* sucess */
+.sucess {
+  padding-bottom: 78px; }
+  @media (min-width: 768px) {
+    .sucess {
+      padding-bottom: 100px; } }
+  @media (min-width: 992px) {
+    .sucess {
+      padding-bottom: 210px; } }
+  .sucess .section-content .join-sucess {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 1px solid #f0f0f0;
+    background-color: #fff; }
+    .sucess .section-content .join-sucess h4 {
+      font-size: 20px;
+      color: #ec6708;
+      line-height: 27px;
+      margin-bottom: 30px; }
+      .sucess .section-content .join-sucess h4 b {
+        color: #060032; }
+        .sucess .section-content .join-sucess h4 b i {
+          font-size: 33px;
+          color: #ec6708;
+          font-style: normal; }
+      @media (min-width: 768px) {
+        .sucess .section-content .join-sucess h4 {
+          margin-bottom: 15px;
+          font-size: 24px; }
+          .sucess .section-content .join-sucess h4 i {
+            font-size: 35px; } }
+    .sucess .section-content .join-sucess .underline {
+      font-size: 16px;
+      color: #333;
+      display: inline;
+      line-height: 30px;
+      text-decoration: underline; }
+      @media (min-width: 768px) {
+        .sucess .section-content .join-sucess .underline {
+          text-decoration: none;
+          display: inline-block;
+          font-size: 18px;
+          padding-bottom: 8px;
+          border-bottom: 1px solid #656565;
+          box-shadow: 0 1px #ccc; } }
+    .sucess .section-content .join-sucess .join-txt {
+      font-size: 13px;
+      color: #666;
+      line-height: 24px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      @media (min-width: 768px) {
+        .sucess .section-content .join-sucess .join-txt {
+          font-size: 14px;
+          margin-bottom: 50px; } }
+
+/* mypoint */
+.mypoint {
+  padding-bottom: 82px; }
+  @media (min-width: 768px) {
+    .mypoint {
+      padding-bottom: 110px; } }
+  .mypoint .section-content .point {
+    text-align: center;
+    background-color: #fff;
+    padding: 25px 10px 28px;
+    box-shadow: 0 6px 30px 0 #e4e4e4; }
+    @media (min-width: 768px) {
+      .mypoint .section-content .point {
+        padding: 25px 0 25px; } }
+    @media (min-width: 1200px) {
+      .mypoint .section-content .point {
+        padding: 25px 0 25px 40px; } }
+    .mypoint .section-content .point .u-point {
+      padding: 10px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #dfdfdf; }
+      @media (min-width: 768px) {
+        .mypoint .section-content .point .u-point {
+          padding-top: 80px;
+          padding-left: 52px;
+          vertical-align: middle;
+          text-align: left;
+          border-bottom: 0; } }
+      @media (min-width: 1200px) {
+        .mypoint .section-content .point .u-point {
+          padding: 0;
+          padding-top: 15px; } }
+      .mypoint .section-content .point .u-point .user {
+        font-size: 13px;
+        color: #333; }
+        .mypoint .section-content .point .u-point .user .u-name {
+          font-size: 16px;
+          color: #204499;
+          font-weight: 500;
+          font-style: normal; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point .u-point .user {
+            font-size: 24px;
+            line-height: 30px; }
+            .mypoint .section-content .point .u-point .user .u-name {
+              font-size: 30px; } }
+      .mypoint .section-content .point .u-point .attention {
+        font-size: 12px;
+        color: #666;
+        opacity: .8; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point .u-point .attention {
+            margin-top: 10px; } }
+  .mypoint .section-content .point-info {
+    padding-top: 20px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .mypoint .section-content .point-info {
+        text-align: left;
+        padding-top: 17px;
+        border-left: 1px solid #dfdfdf; } }
+    @media (min-width: 1200px) {
+      .mypoint .section-content .point-info {
+        padding: 0;
+        padding-left: 60px; } }
+    .mypoint .section-content .point-info dl {
+      display: inline-block;
+      overflow: hidden; }
+      @media (min-width: 768px) {
+        .mypoint .section-content .point-info dl {
+          padding-left: 70px; } }
+      @media (min-width: 1200px) {
+        .mypoint .section-content .point-info dl {
+          padding: 30px 0; } }
+      .mypoint .section-content .point-info dl dt {
+        float: left;
+        clear: both;
+        margin-right: 20px;
+        margin-bottom: 30px; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-info dl dt {
+            margin-bottom: 35px; } }
+        @media (min-width: 1200px) {
+          .mypoint .section-content .point-info dl dt {
+            margin-bottom: 0; } }
+        .mypoint .section-content .point-info dl dt.dt-mb {
+          margin-bottom: 0; }
+          @media (min-width: 768px) {
+            .mypoint .section-content .point-info dl dt.dt-mb {
+              margin-bottom: 17px; } }
+          @media (min-width: 1200px) {
+            .mypoint .section-content .point-info dl dt.dt-mb {
+              margin-bottom: 0; } }
+      .mypoint .section-content .point-info dl dd {
+        float: left;
+        height: 50px;
+        text-align: left; }
+        .mypoint .section-content .point-info dl dd .title {
+          font-size: 13px;
+          height: 25px;
+          line-height: 25px;
+          font-weight: 400; }
+        .mypoint .section-content .point-info dl dd .amount {
+          font-size: 16px;
+          height: 25px;
+          font-weight: bold;
+          line-height: 25px;
+          font-family: 'Lato', sans-serif; }
+          .mypoint .section-content .point-info dl dd .amount span {
+            font-size: 13px;
+            font-weight: 400; }
+        .mypoint .section-content .point-info dl dd.t-orange {
+          color: #ec6708; }
+        .mypoint .section-content .point-info dl dd.t-gray {
+          color: #6a7289; }
+        .mypoint .section-content .point-info dl dd.t-green {
+          color: #aacf3a; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-info dl dd .title {
+            font-size: 16px;
+            line-height: 20px; }
+          .mypoint .section-content .point-info dl dd .amount {
+            font-size: 24px;
+            line-height: 27px; }
+            .mypoint .section-content .point-info dl dd .amount span {
+              font-size: 16px; } }
+  .mypoint .section-content .point-history {
+    margin-top: 30px; }
+    @media (min-width: 768px) {
+      .mypoint .section-content .point-history {
+        margin-top: 50px; } }
+    .mypoint .section-content .point-history .table-wrap .table {
+      border: 0;
+      margin-bottom: 0; }
+      .mypoint .section-content .point-history .table-wrap .table thead tr th {
+        width: 25%;
+        font-size: 12px;
+        color: #222;
+        font-weight: 400;
+        text-align: center;
+        padding: 14px 0;
+        border: 0; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-history .table-wrap .table thead tr th {
+            font-size: 14px; } }
+      .mypoint .section-content .point-history .table-wrap .table tbody tr td {
+        width: 25%;
+        font-size: 12px;
+        color: #666;
+        font-weight: 300;
+        text-align: center;
+        padding: 14px 0;
+        border: 0;
+        border-bottom: 1px solid #dfdfdf;
+        background-color: #fff; }
+        .mypoint .section-content .point-history .table-wrap .table tbody tr td.date {
+          font-family: 'Lato', sans-serif;
+          font-weight: 400; }
+        .mypoint .section-content .point-history .table-wrap .table tbody tr td:last-child {
+          font-family: 'Lato', sans-serif;
+          text-align: right;
+          padding-right: 10px; }
+          @media (min-width: 768px) {
+            .mypoint .section-content .point-history .table-wrap .table tbody tr td:last-child {
+              padding-right: 35px; } }
+        .mypoint .section-content .point-history .table-wrap .table tbody tr td.use-point {
+          color: #da0909; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-history .table-wrap .table tbody tr td {
+            font-size: 14px; } }
+        @media (min-width: 992px) {
+          .mypoint .section-content .point-history .table-wrap .table tbody tr td {
+            padding: 18px 0; } }
+    .mypoint .section-content .point-history .paging {
+      margin-top: 45px; }
+      @media (min-width: 768px) {
+        .mypoint .section-content .point-history .paging {
+          margin-top: 60px; } }
+
+/* edit-form */
+.edit {
+  padding-bottom: 80px; }
+  @media (min-width: 992px) {
+    .edit {
+      padding-bottom: 120px; } }
+  .edit .section-content .edit-form h3 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .edit .section-content .edit-form .input-form dl dt {
+    font-size: 13px; }
+    .edit .section-content .edit-form .input-form dl dt.bold-before:before {
+      content: "*";
+      color: #f0585d;
+      margin-right: 2px; }
+    .edit .section-content .edit-form .input-form dl dt.card {
+      padding-left: 21px; }
+      @media (min-width: 768px) {
+        .edit .section-content .edit-form .input-form dl dt.card {
+          padding-left: 42px; } }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .input-form dl dt {
+        font-size: 14px; } }
+  .edit .section-content .edit-form .input-form dl dd {
+    font-size: 12px;
+    color: #999;
+    padding-left: 21px;
+    line-height: 30px; }
+    .edit .section-content .edit-form .input-form dl dd .attention {
+      display: none;
+      font-size: 12px;
+      color: #666; }
+      @media (min-width: 768px) {
+        .edit .section-content .edit-form .input-form dl dd .attention {
+          display: inline-block;
+          padding-left: 10px; } }
+      @media (min-width: 992px) {
+        .edit .section-content .edit-form .input-form dl dd .attention {
+          padding-left: 30px; } }
+    .edit .section-content .edit-form .input-form dl dd .form-control {
+      font-size: 12px;
+      padding-left: 5px;
+      display: inline-block; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .input-form dl dd.user-pw ::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: transparent; }
+      .edit .section-content .edit-form .input-form dl dd.user-pw :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: transparent; }
+      .edit .section-content .edit-form .input-form dl dd.user-pw ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: transparent; }
+      .edit .section-content .edit-form .input-form dl dd.user-pw :-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: transparent; } }
+    .edit .section-content .edit-form .input-form dl dd.phone .form-control {
+      display: inline-block;
+      width: 85px; }
+    .edit .section-content .edit-form .input-form dl dd.phone > select {
+      width: 66px !important; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .input-form dl dd {
+        font-size: 14px; } }
+  .edit .section-content .edit-form .btn-area {
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px; }
+    .edit .section-content .edit-form .btn-area .pull-left .btn {
+      width: 90px; }
+      @media (min-width: 768px) {
+        .edit .section-content .edit-form .btn-area .pull-left .btn {
+          width: 123px; } }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .btn-area .pull-left {
+        float: none !important;
+        text-align: center; } }
+    .edit .section-content .edit-form .btn-area .pull-right .btn-leave {
+      font-size: 13px;
+      color: #999;
+      line-height: 42px; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .btn-area .pull-right {
+        float: none !important;
+        position: absolute;
+        top: 0;
+        right: 0; } }
+
+/* member-leave */
+.member-leave {
+  padding-bottom: 110px; }
+  @media (min-width: 768px) {
+    .member-leave {
+      padding-bottom: 80px; } }
+  @media (min-width: 992px) {
+    .member-leave {
+      padding-bottom: 135px; } }
+  .member-leave .section-content h3 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .member-leave .section-content h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .member-leave .section-content .attention-point {
+    margin-bottom: 45px;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .attention-point {
+        margin-bottom: 60px;
+        padding: 33px 30px; } }
+    .member-leave .section-content .attention-point .dot-list li {
+      font-size: 12px;
+      line-height: 22px;
+      margin-bottom: 5px; }
+      .member-leave .section-content .attention-point .dot-list li i {
+        color: #ec6708;
+        font-style: normal; }
+      .member-leave .section-content .attention-point .dot-list li:last-child {
+        margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .attention-point .dot-list li {
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 30px; } }
+  .member-leave .section-content .reason h4 label {
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .reason h4 label {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .member-leave .section-content .reason .leave-form {
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #f3f3f3; }
+    .member-leave .section-content .reason .leave-form .form-control {
+      width: 100%;
+      height: 200px;
+      font-size: 12px;
+      padding: 5px;
+      line-height: 22px;
+      overflow-y: scroll; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .reason .leave-form {
+        padding: 30px; }
+        .member-leave .section-content .reason .leave-form .form-control {
+          height: 220px; } }
+  .member-leave .section-content .btn-area {
+    margin-top: 30px; }
+
+/* terms-info */
+/* service-terms , privacy , mail-refusal */
+/* 이용약관및 개인정보취급방침 공통 */
+.terms-info {
+  padding-bottom: 100px; }
+  @media (min-width: 768px) {
+    .terms-info {
+      padding-bottom: 80px; } }
+  @media (min-width: 992px) {
+    .terms-info {
+      padding-bottom: 120px; } }
+  .terms-info .section-content h3 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .terms-info .section-content h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .terms-info .section-content .terms {
+    overflow-y: scroll;
+    height: 240px;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    .terms-info .section-content .terms pre {
+      padding: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      border-radius: 0;
+      border: 0;
+      background-color: #fff; }
+    @media (min-width: 768px) {
+      .terms-info .section-content .terms {
+        font-size: 13px;
+        height: 650px;
+        padding: 25px 20px; } }
+
+/* mail-refusal */
+.mail-refusal .section-content .terms {
+  overflow: visible;
+  height: inherit; }
+
+/* inquiry-list */
+.inquiry-list {
+  padding-bottom: 80px; }
+  @media (min-width: 768px) {
+    .inquiry-list {
+      padding-bottom: 120px; } }
+  .inquiry-list .inquiry-content .table-wrap {
+    margin-top: 18px !important; }
+    @media (min-width: 768px) {
+      .inquiry-list .inquiry-content .table-wrap {
+        margin-top: 60px !important; } }
+  .inquiry-list .inquiry-content .paging {
+    margin-top: 45px; }
+    @media (min-width: 768px) {
+      .inquiry-list .inquiry-content .paging {
+        margin-top: 60px; } }
+
+/* inquiry-view */
+.inquiry-view {
+  padding-bottom: 80px; }
+  @media (min-width: 768px) {
+    .inquiry-view {
+      padding-bottom: 120px; } }
+  .inquiry-view .content-view .article-header {
+    font-size: 16px;
+    color: #222;
+    padding: 25px 15px;
+    border-top: 2px solid #ec6708;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-header {
+        font-size: 18px;
+        padding: 35px 30px; } }
+  .inquiry-view .content-view .article-content .content {
+    font-size: 13px;
+    color: #4e4e4e;
+    line-height: 25px;
+    padding: 45px 11px 95px;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .content {
+        font-size: 15px;
+        padding: 48px 30px 120px; } }
+  .inquiry-view .content-view .article-content .user-info {
+    padding: 15px 10px;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .user-info {
+        padding-left: 30px;
+        padding-right: 30px;
+        overflow: hidden; } }
+    .inquiry-view .content-view .article-content .user-info ul {
+      overflow: hidden; }
+      @media (min-width: 768px) {
+        .inquiry-view .content-view .article-content .user-info ul {
+          float: left; } }
+      .inquiry-view .content-view .article-content .user-info ul li {
+        float: left; }
+        .inquiry-view .content-view .article-content .user-info ul li dl {
+          display: inline-block; }
+          .inquiry-view .content-view .article-content .user-info ul li dl dt {
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+            margin-right: 7px;
+            display: inline-block; }
+          .inquiry-view .content-view .article-content .user-info ul li dl dd {
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+            display: inline-block; }
+          @media (min-width: 768px) {
+            .inquiry-view .content-view .article-content .user-info ul li dl dt {
+              font-size: 14px; }
+            .inquiry-view .content-view .article-content .user-info ul li dl dd {
+              font-size: 14px; } }
+        .inquiry-view .content-view .article-content .user-info ul li:after {
+          font-size: 10px;
+          content: "|";
+          color: #e1e1e1;
+          margin: 0 7px; }
+          @media (min-width: 768px) {
+            .inquiry-view .content-view .article-content .user-info ul li:after {
+              font-size: 12px;
+              margin: 0 15px; } }
+        .inquiry-view .content-view .article-content .user-info ul li:last-child:after {
+          margin: 0;
+          content: ''; }
+    .inquiry-view .content-view .article-content .user-info .print {
+      float: right; }
+      .inquiry-view .content-view .article-content .user-info .print a {
+        font-size: 14px;
+        color: #666; }
+        .inquiry-view .content-view .article-content .user-info .print a i {
+          font-size: 18px;
+          margin-right: 5px; }
+  .inquiry-view .content-view .article-content .attach {
+    padding: 15px 10px;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .attach {
+        padding-left: 30px;
+        padding-right: 30px; } }
+    .inquiry-view .content-view .article-content .attach dl dt {
+      display: inline-block;
+      font-size: 13px;
+      color: #222;
+      font-weight: 400;
+      margin-right: 20px; }
+      .inquiry-view .content-view .article-content .attach dl dt i {
+        margin-right: 5px; }
+    .inquiry-view .content-view .article-content .attach dl dd {
+      display: inline-block;
+      font-size: 14px;
+      color: #4e4e4e;
+      margin-right: 10px; }
+      .inquiry-view .content-view .article-content .attach dl dd:last-child {
+        margin-right: 0; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .attach dl dt {
+        font-size: 14px;
+        margin-right: 75px; }
+      .inquiry-view .content-view .article-content .attach dl dd {
+        font-size: 14px; } }
+  .inquiry-view .content-view .article-content .btn-area {
+    margin-top: 30px; }
+    .inquiry-view .content-view .article-content .btn-area p .btn-sm {
+      display: inline-block;
+      width: 100px;
+      height: 34px;
+      font-size: 13px;
+      line-height: 34px;
+      text-align: center;
+      padding: 0;
+      border-radius: 0;
+      margin-right: 2px; }
+      .inquiry-view .content-view .article-content .btn-area p .btn-sm:last-child {
+        margin-right: 0; }
+      .inquiry-view .content-view .article-content .btn-area p .btn-sm:hover, .inquiry-view .content-view .article-content .btn-area p .btn-sm:focus {
+        text-decoration: none; }
+    .inquiry-view .content-view .article-content .btn-area .basic-btn {
+      margin-top: 10px; }
+      .inquiry-view .content-view .article-content .btn-area .basic-btn .btn-gray {
+        margin: 0 auto;
+        display: block;
+        width: 310px;
+        height: 34px;
+        font-size: 13px;
+        color: #fff;
+        line-height: 34px;
+        text-align: center;
+        padding: 0;
+        background-color: #666; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .btn-area {
+        overflow: hidden;
+        margin-top: 40px; }
+        .inquiry-view .content-view .article-content .btn-area p {
+          float: left; }
+          .inquiry-view .content-view .article-content .btn-area p .btn-sm {
+            margin-right: 10px; }
+        .inquiry-view .content-view .article-content .btn-area .basic-btn {
+          float: right;
+          margin: 0; }
+          .inquiry-view .content-view .article-content .btn-area .basic-btn .btn-gray {
+            width: 100px; } }
+
+/*# sourceMappingURL=member.css.map */
