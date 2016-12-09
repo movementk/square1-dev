@@ -1,4 +1,8 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); 
+$g02 = "selected";
+$s03 = "active";
+?>
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/store.css">
 </head>
