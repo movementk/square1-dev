@@ -17,17 +17,18 @@
           line-height: 120px; } }
   @media (min-width: 1200px) {
     #header {
-      height: 844px; }
+      height: 564px; }
       #header .jumbo {
-        padding-top: 200px; }
+        padding-top: 120px; }
         #header .jumbo h1 {
-          font-size: 105px;
+          /*font-size: 105px;*/
           line-height: 120px;
-          letter-spacing: -3px; }
+          letter-spacing: -5px;
+          word-spacing: 10px; }
       #header #top-nav .logo {
-        margin-top: 100px; }
+        margin-top: 60px; }
       #header #gnb {
-        top: 567px; }
+        top: 327px; }
         #header #gnb .container {
           padding-left: 0;
           padding-right: 0;

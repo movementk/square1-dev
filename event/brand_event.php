@@ -17,7 +17,7 @@ $s01 = "active";
 			<div class="jumbo">
 				<h1><small>이벤트&amp;뉴스</small>EVENT &amp; NEWS</h1>
 				<p>
-					복합 문화 소비공간 스퀘어원만의 이벤트 소식과<br>
+					복합문화 쇼핑공간 스퀘어원만의 이벤트 소식과<br>
 					보도자료를 전해드립니다.
 				</p>
 			</div>
@@ -30,7 +30,7 @@ $s01 = "active";
 			<div class="page-header">
                 <h1><span class="square1">SQUARE<i>1</i></span> 브랜드 이벤트</h1>
                 <h2>즐거운 소식이 가득한<br class="visible-xs"> 스퀘어원 이벤트입니다.</h2>
-                <p>복합 문화 소비공간 스퀘어원만의<br class="visible-xs"> 다양한 이벤트를 경험해 보세요~</p>
+                <p>원스톱 몰링공간 스퀘어원에서<br class="visible-xs"> 다양한 이벤트를 경험해보세요~</p>
             </div>
 			<div class="container">
 				<?

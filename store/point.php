@@ -122,7 +122,7 @@ $s05 = "active";
                         </div>
                         <div class="article-list">
                             <div class="c-details point-benefit">
-                                <h4><i class="icon-star"></i> 적립 포인트 혜택 <small> (기준일 : 2015년 2월 1일) </small></h4>
+                                <h4><i class="icon-star"></i> 적립포인트 혜택 <small> (기준일 : 2015년 2월 1일) </small></h4>
                                 <p class="info-txt">
                                     포인트 금액대별 차감 기프트가 제공되며, 1층 포인트카드 데스크에서 포인트 차감 후 지급해 드립니다. 또한 우수고객을 대상으로 LMS 문자를 통해 문화공연 및 시사회 초대 혜택을 드립니다.
                                 </p>
@@ -141,7 +141,7 @@ $s05 = "active";
                                         <tbody>
                                             <tr>
                                                 <td>6,000포인트</td>
-                                                <td>CGV인천연수점 무료영화관람권 1매</td>
+                                                <td>CGV 인천 연수점 무료 영화 관람권</td>
                                             </tr>
                                             <tr>
                                                 <td>12,000포인트</td>

@@ -79,7 +79,7 @@ $s01 = "active";
                         <span class="bar"></span>
                         <p>
                             <small>생활 여유형</small><br>
-                            대규모 복합쇼핑몰
+                            대규모 복합 쇼핑몰
                         </p>
                     </div>
                 </div>

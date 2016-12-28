@@ -28,7 +28,7 @@ $s03 = "active";
                     <h2>오시는길</h2>
                     <h3>Malling Island SQUARE1 MAP</h3>
                     <p>
-                        몰링 아일랜드, 스케어원으로 오시는 길입니다.
+                        몰링 아일랜드, 스퀘어원으로 오시는 길입니다.
                     </p>
                 </div>
                 <div class="section-content">

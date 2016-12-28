@@ -13,7 +13,7 @@
 			<div class="jumbo">
 				<h1><small>이벤트&amp;뉴스</small>EVENT &amp; NEWS</h1>
 				<p>
-					복합 문화 소비공간 스퀘어원만의 이벤트 소식과<br>
+					복합문화 쇼핑공간 스퀘어원만의 이벤트 소식과<br>
 					보도자료를 전해드립니다.
 				</p>
 			</div>

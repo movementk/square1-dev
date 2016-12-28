@@ -22,22 +22,23 @@
         }
     }
     @media (min-width: $lg) {
-        height: 844px;
+        height: 564px;
         .jumbo {
-            padding-top: 200px;
+            padding-top: 120px;
             h1 {
-                font-size: 105px;
+                /*font-size: 105px;*/
                 line-height: 120px;
-                letter-spacing: -3px;
+                letter-spacing: -5px;
+                word-spacing: 10px;
             }
         }
         #top-nav {
             .logo {
-                margin-top: 100px;
+                margin-top: 60px;
             }
         }
         #gnb {
-            top: 567px;
+            top: 327px;
             .container {
                 padding-left: 0;
                 padding-right: 0;

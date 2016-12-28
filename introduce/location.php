@@ -28,7 +28,7 @@ $s03 = "active";
                 <h1><span class="square1">SQUARE<i>1</i></span> 오시는길</h1>
                 <h2>Malling Island SQUARE1 MAP</h2>
                 <p>
-                    몰링 아일랜드, 스케어원으로 오시는 길입니다.
+                    몰링 아일랜드, 스퀘어원으로 오시는 길입니다.
                 </p>
             </div>
             <section class="location">
@@ -60,36 +60,45 @@ $s03 = "active";
                                     <dt>버스</dt>
                                     <dd>
                                         <h5>동춘역(38-346) 정류장</h5>
-                                        <ul>
-                                            <li>
-                                                <p><span class="blue">좌석</span>103, 303, 522, 753, 909</p>
+                                        <ul class="row">
+                                            <li class="col-xs-6 col-md-4">
+                                                <p class="mb"><span class="blue">간선</span>103-1</p>
+                                            </li>
+                                            <li class="col-xs-6 col-md-4">
+                                                <p class="mb"><span class="green">지선</span>522, 522A</p>
+                                            </li>
+                                            <li class="col-xs-12 col-md-4">
+                                                <p class="mb"><span class="red">광역</span>M6724</p>
+                                            </li>
+                                            <li class="col-xs-6 col-md-4">
+                                                <p><span class="purple">급행</span>908, 909</p>
+                                            </li>
+                                            <li class="col-xs-6 col-md-4">
+                                                <p><span class="blue">좌석</span>303, 304, 320</p>
                                             </li>
                                         </ul>
                                         <h5>동춘역(38-070) 정류장</h5>
                                         <ul class="row">
                                             <li class="col-xs-6 col-md-4">
-                                                <p class="mb"><span class="blue">좌석</span>303</p>
+                                                <p class="mb"><span class="blue">간선</span>6, 68, 103-1</p>
                                             </li>
                                             <li class="col-xs-6 col-md-4">
-                                                <p class="mb"><span class="blue">간선</span>103-1, 65</p>
+                                                <p class="mb"><span class="green">지선</span>522, 522A</p>
                                             </li>
                                             <li class="col-xs-12 col-md-4">
-                                                <p class="mb"><span class="green">지선</span>533, 51(순환), 740</p>
+                                                <p class="mb"><span class="red">광역</span>1300, M6724</p>
                                             </li>
                                             <li class="col-xs-6 col-md-4">
-                                                <p><span class="red">광역</span>1300</p>
+                                                <p><span class="purple">급행</span>908, 909</p>
                                             </li>
                                             <li class="col-xs-6 col-md-4">
-                                                <p><span class="purple">급행</span>909</p>
+                                                <p><span class="blue">좌석</span>303, 304, 320</p>
                                             </li>
                                         </ul>
                                         <h5>동춘역/이마트 정류장</h5>
                                         <ul class="row">
-                                            <li class="col-xs-12 col-sm-6 col-md-4">
-                                                <p class="mb"><span class="blue">좌석</span>65</p>
-                                            </li>
-                                            <li class="col-xs-12 col-sm-6 col-md-4">
-                                                <p><span class="green">지선</span>51(순환공단), 753</p>
+                                            <li class="col-xs-12 col-md-4">
+                                                <p><span class="blue">간선</span>6-1</p>
                                             </li>
                                         </ul>
                                     </dd>

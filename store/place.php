@@ -272,7 +272,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info1_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info1_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -284,7 +284,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info2_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info2_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -296,7 +296,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -306,7 +306,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f2.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f2.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -316,7 +316,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f3.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f3.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -326,7 +326,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f4.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info3_f4.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -338,7 +338,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -348,7 +348,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f2.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f2.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -358,7 +358,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f3.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f3.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -368,7 +368,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f4.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info4_f4.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -380,7 +380,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info5_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info5_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -392,7 +392,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info6_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info6_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -404,7 +404,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info7_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info7_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -416,7 +416,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info8_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info8_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -426,7 +426,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info8_f2.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info8_f2.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -436,7 +436,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info8_f3.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info8_f3.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -448,7 +448,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info9_f1.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info9_f1.gif" alt=""></p>
                 </div>
             </div>
         </div>
@@ -458,7 +458,7 @@ $s03 = "active";
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <img src="/assets/images/store/btn_popup_close.gif" alt="">
                     </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info9_f4.jpg" alt=""></p>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info9_f4.gif" alt=""></p>
                 </div>
             </div>
         </div>

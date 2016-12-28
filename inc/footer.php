@@ -15,7 +15,7 @@
                     <li>팩스번호 : 032-456-4667</li>
                 </ul>
                 <ul class="business">
-                    <li>대표이사 : 송민호</li>
+                    <li>대표이사 : 승만호</li>
                     <li>사업자등록번호 : 220-81-666565</li>
                 </ul>
                 <p class="copyright">(C) 2016 SEOBU T&amp;D CO.,LTD  ALL RIGHT RESERVED. <a href="http://www.movementk.com" target="_blank">SITE BY MOVEMENTK GROUP.</a></p>

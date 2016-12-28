@@ -30,17 +30,17 @@ $s02 = "active";
 			?>
 			<div class="page-header">
                 <h1><span class="square1">SQUARE<i>1</i></span> 대관신청안내</h1>
-                <h2>스퀘어원은 고객의<br class="visible-xs">문화향유를 지원합니다.</h2>
+                <h2>스퀘어원은 고객의 <br class="visible-xs">문화 향유를 지원합니다.</h2>
                 <p>
                     스퀘어원 4층 문화홀은 어린이 북카페, 공연공간,<br class="visible-xs">
                     오픈갤러리로 구성되어 있습니다.<br>
-                    고객여러분의 문화향유를 위한 문화 공간을 지원합니다.
+                    고객 여러분의 문화 향유를 위한 문화 공간을 지원합니다.
                 </p>
                 <hr>
                 <small>
                     아래의 대관신청 접수를 해주시면, <br class="visible-xs">
                     대관 이용이 가능한 단체에 연락을 드립니다. <br>
-                    단 기업홍보를 위한 행사 또는 상업목적을 둔 내용은 <br class="visible-xs">
+                    단, 기업 홍보를 위한 행사 또는 상업목적을 둔 내용은 <br class="visible-xs">
                     무료대관지원을 하지 않습니다.
                 </small>
             </div>

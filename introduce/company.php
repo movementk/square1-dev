@@ -54,7 +54,7 @@ $s01 = "active";
                             </div>
                             <div class="col-xs-12 col-lg-6 col-lg-pull-6">
                                 <p class="detials">
-                                    인천에 세워진 대형 복합쇼핑몰 SQUARE1은 보고, 느끼고, 먹고, 즐기고, 체험하는<br class="visible-lg">
+                                    인천에 세워진 대형 복합 쇼핑몰 SQUARE1은 보고, 느끼고, 먹고, 즐기고, 체험하는<br class="visible-lg">
                                     원스톱 몰링 공간입니다. 일탈을 꿈꾸고, 어디론가 떠나 즐겁고 편안한 휴식을 갖고 싶을 때<br class="visible-lg">
                                     SQUARE1을 찾아보세요. 낭만과 설레임, 새로운 감동이 기다리고 있습니다.
                                 </p>
@@ -76,17 +76,17 @@ $s01 = "active";
                         <li class="col-xs-6 col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-0">
                             <span>02</span>
                             <h4>FLOOR</h4>
-                            <p>B2 ~ 4F. 지하2층부터 지상 4층까지 음식,쇼핑 문화를 마음껏 즐기세요.</p>
+                            <p>B2 ~ 4F. 지하 2층부터 지상 4층까지 음식, 쇼핑 문화를 마음껏 즐기세요.</p>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-sm-offset-1 col-lg-3 col-lg-offset-0">
                             <span>03</span>
                             <h4>PARKING</h4>
-                            <p>1,871대의 넓은 주차공간을 이용해 빠르게 스퀘어원을 이용 하실수 있습니다.</p>
+                            <p>1,871대의 넓은 주차공간을 이용해 빠르게 스퀘어원을 이용하실 수 있습니다.</p>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-0">
                             <span>04</span>
                             <h4>BRAND</h4>
-                            <p>약 170여개의 많은 브랜드가 입점해 있습니다.</p>
+                            <p>약 170여 개의 많은 브랜드가 입점해 있습니다.</p>
                         </li>
                     </ul>
                 </div>

@@ -61,7 +61,7 @@ $write_pages = get_paging($PageBlock, $page, $total_page, $_SERVER["PHP_SELF"]."
 	<div class="section-header">
 		<h2>스퀘어원의 이벤트 소식을<br class="visible-xs"> 한번에 보실 수 있습니다.</h2>
 		<p>
-			복합 문화 소비공간 스퀘어원만의<br class="visible-xs"> 다양한 이벤트를 경험해 보세요~
+			원스톱 몰링공간 스퀘어원에서<br class="visible-xs"> 다양한 이벤트를 경험해 보세요~
 		</p>
 	</div>
 	<div class="section-content">

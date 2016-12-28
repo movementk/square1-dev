@@ -26,8 +26,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');
 		$result = mssql_query($sql,$mconn);
 		$cardInfo = mssql_fetch_array($result);
 
-		$sql = " select * from WEB_POINT_DETAIL where Web_CUST_NO = '".$cardInfo["WEB_CUST_NO"]."' ";
+		if(!$page) $page = 1;
+		$PageBlock = 5;  //넘길 페이지 갯수
+		if(!$board_list_num) $board_list_num = 5; //게시판 게시글 수
+
+		$totalSql = " select * from WEB_POINT_DETAIL where Web_CUST_NO = '".$cardInfo["WEB_CUST_NO"]."' order by Web_IndexNo desc ";
+		$totalResult = mssql_query($totalSql,$mconn);
+		$TotalCount = @mssql_num_rows($totalResult);
+
+		$total_page  = ceil($TotalCount / $board_list_num);  // 전체 페이지 계산
+
+		$write_pages = get_paging($PageBlock, $page, $total_page, $_SERVER["PHP_SELF"]."?page=");
+
+		$sql = $totalSql." offset ".intval(($page - 1) * $board_list_num)." rows fetch next ".$board_list_num." rows only";
 		$result = mssql_query($sql,$mconn);
+		$Count = @mssql_num_rows($result);
 		for($i=0;$row = mssql_fetch_array($result);$i++){
 			$row["Web_Aname"] = iconv("EUC-KR","UTF-8",$row["Web_Aname"]);
 			$list[$i] = $row;
@@ -117,7 +130,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');
 									<thead>
 										<tr>
 											<th>적립일자</th>
-											<th>제목</th>
+											<th>매장</th>
 											<th>매출금액</th>
 											<th>포인트</th>
 										</tr>
@@ -138,35 +151,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');
 									</tbody>
 								</table>
 							</div>
-							<!--nav aria-label="Page navigation" class="paging">
+							<nav aria-label="Page navigation" class="paging">
 								<ul class="pagination">
-									<li>
-										<a href="#" aria-label="Previous" class="ap">
-											<i aria-hidden="true" class="icon-angle-double-left"></i>
-										</a> 
-									</li>
-									<li>
-										<a href="#" aria-label="Previous" class="ap ap-mr">
-											<i aria-hidden="true" class="icon-angle-left"></i>
-										</a>
-									</li>
-									<li class="active"><a href="#">1</a></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#" class="ap-mr">5</a></li>
-									<li>
-										<a href="#" aria-label="Next" class="ap">
-											<i aria-hidden="true" class="icon-angle-right"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#" aria-label="Next" class="ap">
-											<i aria-hidden="true" class="icon-angle-double-right"></i>
-										</a>
-									</li>
+									<?
+									if($Count>0){
+										echo $write_pages;
+									}
+									?>
 								</ul>
-							</nav-->
+							</nav>
 						</div>
 					</div>
 				</div>
