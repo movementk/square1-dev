@@ -138,7 +138,7 @@
     padding-bottom: 300px; } }
 .prizewinner-list .section-header {
   padding-top: 0;
-  padding-bottom: 30; }
+  padding-bottom: 30px; }
   @media (min-width: 992px) {
     .prizewinner-list .section-header {
       padding-bottom: 60px; } }
@@ -174,6 +174,9 @@
   margin-bottom: 0; }
 .square1-event .section-content .event-img {
   margin-bottom: 40px; }
+  .square1-event .section-content .event-img img {
+    max-width: 100%;
+    display: inline-block; }
   @media (min-width: 992px) {
     .square1-event .section-content .event-img {
       margin-bottom: 90px; } }
@@ -310,6 +313,8 @@
   @media (min-width: 768px) {
     .square1-event .section-content .event-form .btn-area .float-r {
       float: right; } }
+.square1-event .section-content .event-form.event-form + .event-form {
+  margin-top: 40px; }
 
 /* event-identify02 */
 .event-identify02 .section-content .identify {
@@ -411,6 +416,12 @@
   line-height: 25px;
   padding: 45px 11px 95px;
   border-bottom: 1px solid #dfdfdf; }
+  .event-view .content-view .article-content .content img {
+    max-width: 100%;
+    display: inline-block; }
+  .event-view .content-view .article-content .content p img {
+    max-width: 100%;
+    display: inline-block; }
   @media (min-width: 768px) {
     .event-view .content-view .article-content .content {
       font-size: 15px;

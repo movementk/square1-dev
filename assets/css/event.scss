@@ -194,7 +194,7 @@
     }
     .section-header {
         padding-top: 0;
-        padding-bottom: 30;
+        padding-bottom: 30px;
         @media(min-width: $md) {
             padding-bottom: 60px;
         }
@@ -242,6 +242,10 @@
     .section-content {
         .event-img {
             margin-bottom: 40px;
+            img {
+                max-width: 100%;
+                display: inline-block;
+            }
             @media(min-width: $md) {
                 margin-bottom: 90px;
             }
@@ -408,6 +412,9 @@
                     }
                 }
             }
+            &.event-form + .event-form {
+                margin-top: 40px;
+            }
         }
     }
 }
@@ -536,6 +543,16 @@
                 line-height: 25px;
                 padding: 45px 11px 95px;
                 border-bottom: 1px solid #dfdfdf;
+                img {
+                    max-width: 100%;
+                    display: inline-block;
+                }
+                p {
+                    img {
+                        max-width: 100%;
+                        display: inline-block;
+                    }
+                }
                 @media(min-width: $sm) {
                     font-size: 15px;
                     padding: 48px 30px 120px;

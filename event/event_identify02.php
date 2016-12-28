@@ -115,7 +115,7 @@ if($idx){
 						<div class="event-img">
 							<?
 							if($view["HtmlChk"]=="Y"){
-								$view["Content"] = preg_replace("/(\<img )([^\>]*)(\>)/i", "\\1 name='target_resize_image[]' class='img-responsive' \\2 \\3", $view["Content"]);
+								$view["Content"] = preg_replace("/(\<img )([^\>]*)(\>)/i", "\\1 name='target_resize_image[]' \\2 \\3", $view["Content"]);
 								echo $view["Content"];
 							} else {
 								echo nl2br($view["Content"]);

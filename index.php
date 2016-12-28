@@ -19,7 +19,7 @@
 			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb.php'); ?>
 			<div class="jumbo">
 				<h1>
-					ENJOY YOUR<br>
+					ENJOY YOUR<br class="hidden-lg">
 					<b>LIFE TIME !</b>
 				</h1>
 			</div>
@@ -114,27 +114,37 @@
 					<div class="col-xs-12 col-lg-6">
 						<div id="banner-2" class="banner">
 							<ul>
+								<?
+								$blist1 = get_banner("M2");
+								for($i=0;$i<sizeof($blist1);$i++){
+									if($blist1[$i]["blink"]){
+										$blink = "<a href='".$blist1[$i]["blink"]."' target='".$blist1[$i]["btarget"]."'>";
+									} else {
+										$blink = "<a href='javascript:;'>";
+									}
+								?>
 								<li>
-									<a href="#">
-										<img class="visible-xs" src="/assets/images/img_banner2_1_xs.jpg" alt="">
-										<img class="visible-sm visible-md" src="/assets/images/img_banner2_1_sm.jpg" alt="">
-										<img class="visible-lg" src="/assets/images/img_banner2_1_lg.jpg" alt="">
+									<?=$blink?>
+										<?
+										for($j=0;$j<$blist1[$i]["files"]["count"];$j++){
+											switch($j){
+												case 0:
+													echo "<img src='".$blist1[$i]["files"][$j]["path"]."/".$blist1[$i]["files"][$j]["file_source"]."' class='visible-lg' />";
+													break;
+												case 1:
+													echo "<img src='".$blist1[$i]["files"][$j]["path"]."/".$blist1[$i]["files"][$j]["file_source"]."' class='visible-sm visible-md' />";
+													break;
+												case 2:
+													echo "<img src='".$blist1[$i]["files"][$j]["path"]."/".$blist1[$i]["files"][$j]["file_source"]."' class='visible-xs' />";
+													break;
+											}
+										}
+										?>
 									</a>
 								</li>
-								<li>
-									<a href="#">
-										<img class="visible-xs" src="/assets/images/img_banner2_1_xs.jpg" alt="">
-										<img class="visible-sm visible-md" src="/assets/images/img_banner2_1_sm.jpg" alt="">
-										<img class="visible-lg" src="/assets/images/img_banner2_1_lg.jpg" alt="">
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img class="visible-xs" src="/assets/images/img_banner2_1_xs.jpg" alt="">
-										<img class="visible-sm visible-md" src="/assets/images/img_banner2_1_sm.jpg" alt="">
-										<img class="visible-lg" src="/assets/images/img_banner2_1_lg.jpg" alt="">
-									</a>
-								</li>
+								<?
+								}
+								?>
 							</ul>
 						</div>
 					</div>

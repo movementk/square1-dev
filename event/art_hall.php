@@ -152,5 +152,14 @@ $s03 = "active";
 		<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	</div>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<script>
+		(function($) {
+			if ($(document).width() > 768) {
+				$(window).scrollTop($('#content').offset().top - $('#gnb').height());
+			} else {
+				$(window).scrollTop($('#content').offset().top - $('#top-nav').height());
+			}
+		})(jQuery);
+	</script>
 </body>
 </html>

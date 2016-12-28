@@ -190,8 +190,8 @@ $s05 = "active";
                                     <small class="s-margin"> (기준일 : 2015년 5월 3일)</small>
                                 </h4>
                                 <p class="info-txt">
-                                    ZARA, H&amp;M, 유니클로, 마시모두띠, 폴앤베어, 버쉬카, 스트라디바리우스, 빕스, 차이나팩토리, 투썸플레이스, CU편의점, LG하우시스, CGV, 홈플러스, <br class="visible-lg">
-                                    올리브영, 베세토메디컬(병원/약국), 고정현헤어, 게임센터, 반짇고리
+                                    ZARA, H&amp;M, 유니클로, 마시모두띠, 폴앤베어, 버쉬카, 빕스, 차이나팩토리, 투썸플레이스, CU편의점, LG하우시스, CGV, 홈플러스, <br class="visible-lg">
+                                    올리브영, 병원/약국, 고정현헤어, 게임센터, 반짇고리
                                 </p>
                                 <p class="point-txt">적립 제외 매장은 추후 변경될 수 있습니다.</p>
                             </div>

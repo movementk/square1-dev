@@ -483,10 +483,11 @@
           margin-right: 15px;
           font-weight: 300; }
           .amenity-list > ul > li > div dl dd a {
-            font-weight: 300; }
-            .amenity-list > ul > li > div dl dd a span {
+            font-weight: 300;
+            color: #666; }
+            .amenity-list > ul > li > div dl dd a:hover, .amenity-list > ul > li > div dl dd a:focus {
               color: #ec6708;
-              text-decoration: underline; }
+              text-decoration: none; }
             .amenity-list > ul > li > div dl dd a i {
               font-size: 13px;
               color: #ec6708;
@@ -494,8 +495,6 @@
               @media (min-width: 768px) {
                 .amenity-list > ul > li > div dl dd a i {
                   font-size: 16px; } }
-            .amenity-list > ul > li > div dl dd a:hover, .amenity-list > ul > li > div dl dd a:focus {
-              text-decoration: none; }
           .amenity-list > ul > li > div dl dd.clear {
             clear: both;
             margin-left: 80px; }
@@ -737,57 +736,107 @@
         color: #999; }
         .card-information .article-list .c-details > h4 > small.s-margin {
           margin-left: 22px; }
-    @media (min-width: 992px) {
-      .card-information .article-list .c-details .benefit-list li {
-        width: 20%; } }
-    .card-information .article-list .c-details .benefit-list li div {
-      width: 100%;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #dfdfdf; }
-      .card-information .article-list .c-details .benefit-list li div .item-icon img {
-        display: block;
-        margin: 0 auto; }
-      .card-information .article-list .c-details .benefit-list li div dl {
-        height: 60px; }
-      @media (min-width: 992px) {
-        .card-information .article-list .c-details .benefit-list li div.cgv {
-          margin: 0; } }
-      .card-information .article-list .c-details .benefit-list li div.chinaf {
-        margin-right: 0; }
-        @media (min-width: 992px) {
-          .card-information .article-list .c-details .benefit-list li div.chinaf {
-            margin: 0; } }
-      @media (min-width: 992px) {
-        .card-information .article-list .c-details .benefit-list li div.bibigo {
-          margin: 0; } }
-      .card-information .article-list .c-details .benefit-list li div.hakoya {
-        margin-right: 0; }
-        @media (min-width: 992px) {
-          .card-information .article-list .c-details .benefit-list li div.hakoya {
-            margin: 0; } }
-      @media (min-width: 992px) {
-        .card-information .article-list .c-details .benefit-list li div.smoothie {
-          margin: 0; } }
-      .card-information .article-list .c-details .benefit-list li div dl {
-        height: 60px;
-        text-align: center; }
-        .card-information .article-list .c-details .benefit-list li div dl dt {
-          font-size: 11px;
-          color: #666;
-          font-weight: 300; }
-        .card-information .article-list .c-details .benefit-list li div dl dd {
-          font-size: 13px;
-          color: #333;
-          font-weight: 400; }
+    .card-information .article-list .c-details .benefit-list {
+      overflow: hidden; }
+      .card-information .article-list .c-details .benefit-list > li {
+        float: left;
+        width: 48.4%;
+        border: 1px solid #dfdfdf;
+        padding-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        display: table; }
+        .card-information .article-list .c-details .benefit-list > li.cgv .item-icon {
+          padding: 0 40px; }
+        .card-information .article-list .c-details .benefit-list > li.chinaf {
+          margin-right: 0; }
+          .card-information .article-list .c-details .benefit-list > li.chinaf .item-icon {
+            padding: 0 25px; }
+        .card-information .article-list .c-details .benefit-list > li.bibigo .item-icon {
+          padding: 0 33px; }
+        .card-information .article-list .c-details .benefit-list > li.hakoya {
+          margin-right: 0; }
+          .card-information .article-list .c-details .benefit-list > li.hakoya .item-icon {
+            padding: 0 20px; }
+        .card-information .article-list .c-details .benefit-list > li.smoothie .item-icon {
+          padding: 0 14px; }
+        .card-information .article-list .c-details .benefit-list > li .item-icon {
+          width: 100%;
+          height: 55px;
+          display: table-cell;
+          vertical-align: middle; }
+          .card-information .article-list .c-details .benefit-list > li .item-icon img {
+            margin: 0 auto; }
+        .card-information .article-list .c-details .benefit-list > li > dl {
+          height: 60px;
+          display: table-row;
+          text-align: center; }
+          .card-information .article-list .c-details .benefit-list > li > dl dt {
+            font-size: 11px;
+            color: #666;
+            font-weight: 300; }
+          .card-information .article-list .c-details .benefit-list > li > dl dd {
+            font-size: 13px;
+            color: #333;
+            font-weight: 400; }
         @media (min-width: 768px) {
-          .card-information .article-list .c-details .benefit-list li div dl {
-            height: 65px; }
-            .card-information .article-list .c-details .benefit-list li div dl dt {
-              font-size: 13px;
-              margin-bottom: 5px; }
-            .card-information .article-list .c-details .benefit-list li div dl dd {
-              font-size: 15px; } }
+          .card-information .article-list .c-details .benefit-list > li {
+            width: 32.3%; }
+            .card-information .article-list .c-details .benefit-list > li.cgv .item-icon {
+              padding: 0 68px; }
+            .card-information .article-list .c-details .benefit-list > li.chinaf {
+              margin-right: 10px; }
+              .card-information .article-list .c-details .benefit-list > li.chinaf .item-icon {
+                padding: 0 45px; }
+            .card-information .article-list .c-details .benefit-list > li.bibigo {
+              margin-right: 0; }
+              .card-information .article-list .c-details .benefit-list > li.bibigo .item-icon {
+                padding: 0 58px; }
+            .card-information .article-list .c-details .benefit-list > li.hakoya {
+              margin-right: 10px; }
+              .card-information .article-list .c-details .benefit-list > li.hakoya .item-icon {
+                padding: 0 39px; }
+            .card-information .article-list .c-details .benefit-list > li.smoothie .item-icon {
+              padding: 0 32px; }
+            .card-information .article-list .c-details .benefit-list > li dl {
+              height: 70px; }
+              .card-information .article-list .c-details .benefit-list > li dl dt {
+                font-size: 13px; }
+              .card-information .article-list .c-details .benefit-list > li dl dd {
+                font-size: 15px; } }
+        @media (min-width: 992px) {
+          .card-information .article-list .c-details .benefit-list > li {
+            width: 18.77%; }
+            .card-information .article-list .c-details .benefit-list > li.cgv {
+              margin-right: 15px; }
+              .card-information .article-list .c-details .benefit-list > li.cgv .item-icon {
+                padding: 0; }
+            .card-information .article-list .c-details .benefit-list > li.chinaf {
+              margin-right: 15px; }
+              .card-information .article-list .c-details .benefit-list > li.chinaf .item-icon {
+                padding: 0; }
+            .card-information .article-list .c-details .benefit-list > li.bibigo {
+              margin-right: 15px; }
+              .card-information .article-list .c-details .benefit-list > li.bibigo .item-icon {
+                padding: 0; }
+            .card-information .article-list .c-details .benefit-list > li.hakoya {
+              margin-right: 15px; }
+              .card-information .article-list .c-details .benefit-list > li.hakoya .item-icon {
+                padding: 0; }
+            .card-information .article-list .c-details .benefit-list > li.smoothie {
+              margin-right: 0; }
+              .card-information .article-list .c-details .benefit-list > li.smoothie .item-icon {
+                padding: 0; }
+            .card-information .article-list .c-details .benefit-list > li dl {
+              height: 70px; }
+              .card-information .article-list .c-details .benefit-list > li dl dt {
+                padding-top: 10px;
+                font-size: 13px; }
+              .card-information .article-list .c-details .benefit-list > li dl dd {
+                font-size: 15px; } }
+        @media (min-width: 1200px) {
+          .card-information .article-list .c-details .benefit-list > li {
+            width: 18.99%; } }
     .card-information .article-list .c-details .table-wrap {
       border-top: 1px solid #ec6708; }
       .card-information .article-list .c-details .table-wrap .table-bordered {

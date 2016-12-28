@@ -1,5 +1,6 @@
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');
+if($is_guest) GetAlert("로그인 후 이용하시기 바랍니다.","/member/login.php?URI=".urlencode($_SERVER['PHP_SELF']));
 ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/member.css">
@@ -22,9 +23,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');
 			</div>
 		</header>
 		<?
-		$sql = " select * from WEB_POINT where WEB_CARD_NO = '".$member["mb_1"]."' ";
+		$mphone = explode("-",$member["Mobile"]);
+		$sql = " select * from WEB_POINT where WEB_CARD_NO = '".$member["mb_1"]."' and WEB_HPONE1 = '".$mphone[0]."' and WEB_HPONE2 = '".$mphone[1]."' and WEB_HPONE3 = '".$mphone[2]."' ";
 		$result = mssql_query($sql,$mconn);
 		$cardInfo = mssql_fetch_array($result);
+
+		if(!$cardInfo["WEB_CUST_NO"]) GetAlert("일치하는 회원 정보가 없습니다. 포인트카드번호와 전화번호를 확인하시기 바랍니다.","/member/edit_form.php");
 
 		if(!$page) $page = 1;
 		$PageBlock = 5;  //넘길 페이지 갯수

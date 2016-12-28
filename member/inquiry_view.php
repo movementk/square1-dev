@@ -1,6 +1,64 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/member.css">
+<style>
+.inquiry-view .view-content .content-view .article-content .comment-list .comment-info {
+  padding: 22px 11px;
+  border-bottom: 1px solid #dfdfdf; }
+  .inquiry-view .view-content .content-view .article-content .comment-list .comment-info h4 {
+    display: inline;
+    font-size: 12px;
+    color: #333; }
+    @media (min-width: 768px) {
+      .inquiry-view .view-content .content-view .article-content .comment-list .comment-info h4 {
+        font-size: 13px; } }
+  .inquiry-view .view-content .content-view .article-content .comment-list .comment-info .date {
+    display: inline;
+    margin-left: 8px;
+    font-size: 12px;
+    color: #666;
+    font-family: 'Lato', sans-serif; }
+    @media (min-width: 768px) {
+      .inquiry-view .view-content .content-view .article-content .comment-list .comment-info .date {
+        font-size: 13px; } }
+  .inquiry-view .view-content .content-view .article-content .comment-list .comment-info ul {
+    float: right;
+    display: inline; }
+    .inquiry-view .view-content .content-view .article-content .comment-list .comment-info ul li {
+      display: inline-block; }
+      .inquiry-view .view-content .content-view .article-content .comment-list .comment-info ul li a {
+        font-size: 12xp;
+        color: #999; }
+        @media (min-width: 768px) {
+          .inquiry-view .view-content .content-view .article-content .comment-list .comment-info ul li a {
+            font-size: 13px; } }
+      .inquiry-view .view-content .content-view .article-content .comment-list .comment-info ul li:after {
+        font-size: 10px;
+        content: "|";
+        color: #d8d8d8;
+        margin: 0 8px; }
+        @media (min-width: 768px) {
+          .inquiry-view .view-content .content-view .article-content .comment-list .comment-info ul li:after {
+            font-size: 13px;
+            margin: 0 10px; } }
+      .inquiry-view .view-content .content-view .article-content .comment-list .comment-info ul li:last-child:after {
+        content: '';
+        margin: 0; }
+  .inquiry-view .view-content .content-view .article-content .comment-list .comment-info p {
+    clear: both;
+    display: block;
+    font-size: 12px;
+    color: #999; }
+    @media (min-width: 768px) {
+      .inquiry-view .view-content .content-view .article-content .comment-list .comment-info p {
+        margin-top: 10px;
+        font-size: 13px; } }
+  .inquiry-view .view-content .content-view .article-content .comment-list .comment-info.reply {
+    padding-left: 40px;
+    background-image: url(/assets/images/center/reply_img.gif);
+    background-repeat: no-repeat;
+    background-position: 15px 40px; }
+</style>
 </head>
 <body class="sub member mypage">
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>

@@ -165,30 +165,39 @@ if(!$gubun) $gubun = "ing";
 	</div>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 	<script>
-	function request_chk(){
-		var f = "write_form";
-		var expCk = true;
+		(function($) {
+			function request_chk(){
+				var f = "write_form";
+				var expCk = true;
 
-		if($("#agree11").prop("checked") == false){
-			alert("개인정보취급방침에 동의하시기 바랍니다.");
-			expCk = false;
-		}
-
-		$("form[name='"+f+"']").find(".exp").each(function(){
-			if(expCk){
-				if($.trim($(this).val()) == ""){
-					alert($(this).attr("title")+"은(는) 필수입력입니다.");
+				if($("#agree11").prop("checked") == false){
+					alert("개인정보취급방침에 동의하시기 바랍니다.");
 					expCk = false;
 				}
-			}
-		});
 
-		if(expCk){
-			return true;
-		} else {
-			return false;
-		}
-	}
+				$("form[name='"+f+"']").find(".exp").each(function(){
+					if(expCk){
+						if($.trim($(this).val()) == ""){
+							alert($(this).attr("title")+"은(는) 필수입력입니다.");
+							expCk = false;
+						}
+					}
+				});
+
+				if(expCk){
+					return true;
+				} else {
+					return false;
+				}
+			}
+		
+			if ($(document).width() > 768) {
+				$(window).scrollTop($('#content').offset().top - $('#gnb').height());
+			} else {
+				$(window).scrollTop($('#content').offset().top - $('#top-nav').height());
+			}
+			
+		})(jQuery);
 	</script>
 </body>
 </html>

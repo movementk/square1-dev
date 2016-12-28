@@ -32,11 +32,11 @@
 					<span class="sr-only">검색폼 버튼</span>
 				</button>
 				<div class="search-area">
-						<div class="form-group">
-							<label for="global-search-keyword" class="sr-only">검색어</label>
-							<input id="global-search-keyword" type="text" class="form-control" name="#" placeholder="BRAND SEARCH" autocomplete="off">
-							<button type="button" class="btn btn-global-search" id="global-search-button"><i class="icon-search"></i></button>
-						</div>
+					<div class="form-group">
+						<label for="global-search-keyword" class="sr-only">검색어</label>
+						<input id="global-search-keyword" type="text" class="form-control" name="#" placeholder="BRAND SEARCH" autocomplete="off">
+						<button type="button" class="btn btn-global-search" id="global-search-button"><i class="icon-search"></i></button>
+					</div>
 					<div class="results" id="global-search-result">
 						<p class="nothing">검색결과가 없습니다.</p>
 					</div>

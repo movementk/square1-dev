@@ -69,7 +69,7 @@
                 $('#gnb').removeClass('fixed');
             }
         } else if ($('body').hasClass('main')) {
-            if ($(this).scrollTop() > 567) {
+            if ($(this).scrollTop() > 327) {
                 $('#gnb').addClass('fixed');
             } else {
                 $('#gnb').removeClass('fixed');
